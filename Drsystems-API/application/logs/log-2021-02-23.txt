@@ -1,0 +1,1100 @@
+INFO - 2021-02-23 10:57:15 --> Config Class Initialized
+INFO - 2021-02-23 10:57:15 --> Hooks Class Initialized
+INFO - 2021-02-23 10:57:15 --> UTF-8 Support Enabled
+INFO - 2021-02-23 10:57:16 --> Utf8 Class Initialized
+INFO - 2021-02-23 10:57:16 --> URI Class Initialized
+DEBUG - 2021-02-23 10:57:16 --> No URI present. Default controller set.
+INFO - 2021-02-23 10:57:16 --> Router Class Initialized
+INFO - 2021-02-23 10:57:16 --> Output Class Initialized
+INFO - 2021-02-23 10:57:16 --> Security Class Initialized
+INFO - 2021-02-23 10:57:16 --> Input Class Initialized
+INFO - 2021-02-23 10:57:16 --> Language Class Initialized
+INFO - 2021-02-23 10:57:16 --> Loader Class Initialized
+INFO - 2021-02-23 10:57:16 --> Helper loaded: url_helper
+INFO - 2021-02-23 10:57:16 --> Helper loaded: string_helper
+INFO - 2021-02-23 10:57:16 --> Helper loaded: date_helper
+INFO - 2021-02-23 10:57:16 --> Helper loaded: array_helper
+INFO - 2021-02-23 10:57:16 --> Helper loaded: security_helper
+INFO - 2021-02-23 10:57:16 --> Helper loaded: text_helper
+INFO - 2021-02-23 10:57:16 --> Helper loaded: session_helper
+INFO - 2021-02-23 10:57:16 --> Controller Class Initialized
+INFO - 2021-02-23 10:57:16 --> Database Driver Class Initialized
+INFO - 2021-02-23 10:57:16 --> Database Driver Class Initialized
+INFO - 2021-02-23 10:57:17 --> Model Class Initialized
+INFO - 2021-02-23 10:57:17 --> Final output sent to browser
+INFO - 2021-02-23 10:57:17 --> Total execution time: 1.5071
+INFO - 2021-02-23 10:57:30 --> Config Class Initialized
+INFO - 2021-02-23 10:57:30 --> Hooks Class Initialized
+INFO - 2021-02-23 10:57:30 --> UTF-8 Support Enabled
+INFO - 2021-02-23 10:57:30 --> Utf8 Class Initialized
+INFO - 2021-02-23 10:57:30 --> URI Class Initialized
+DEBUG - 2021-02-23 10:57:30 --> No URI present. Default controller set.
+INFO - 2021-02-23 10:57:30 --> Router Class Initialized
+INFO - 2021-02-23 10:57:30 --> Output Class Initialized
+INFO - 2021-02-23 10:57:30 --> Security Class Initialized
+INFO - 2021-02-23 10:57:30 --> Input Class Initialized
+INFO - 2021-02-23 10:57:30 --> Language Class Initialized
+INFO - 2021-02-23 10:57:30 --> Loader Class Initialized
+INFO - 2021-02-23 10:57:30 --> Helper loaded: url_helper
+INFO - 2021-02-23 10:57:30 --> Helper loaded: string_helper
+INFO - 2021-02-23 10:57:30 --> Helper loaded: date_helper
+INFO - 2021-02-23 10:57:30 --> Helper loaded: array_helper
+INFO - 2021-02-23 10:57:30 --> Helper loaded: security_helper
+INFO - 2021-02-23 10:57:30 --> Helper loaded: text_helper
+INFO - 2021-02-23 10:57:30 --> Helper loaded: session_helper
+INFO - 2021-02-23 10:57:30 --> Controller Class Initialized
+INFO - 2021-02-23 10:57:30 --> Database Driver Class Initialized
+INFO - 2021-02-23 10:57:31 --> Database Driver Class Initialized
+INFO - 2021-02-23 10:57:31 --> Model Class Initialized
+INFO - 2021-02-23 10:57:31 --> Final output sent to browser
+INFO - 2021-02-23 10:57:31 --> Total execution time: 1.3826
+INFO - 2021-02-23 10:59:33 --> Config Class Initialized
+INFO - 2021-02-23 10:59:33 --> Hooks Class Initialized
+INFO - 2021-02-23 10:59:33 --> UTF-8 Support Enabled
+INFO - 2021-02-23 10:59:33 --> Utf8 Class Initialized
+INFO - 2021-02-23 10:59:33 --> URI Class Initialized
+DEBUG - 2021-02-23 10:59:33 --> No URI present. Default controller set.
+INFO - 2021-02-23 10:59:33 --> Router Class Initialized
+INFO - 2021-02-23 10:59:33 --> Output Class Initialized
+INFO - 2021-02-23 10:59:33 --> Security Class Initialized
+INFO - 2021-02-23 10:59:33 --> Input Class Initialized
+INFO - 2021-02-23 10:59:33 --> Language Class Initialized
+INFO - 2021-02-23 10:59:33 --> Loader Class Initialized
+INFO - 2021-02-23 10:59:33 --> Helper loaded: url_helper
+INFO - 2021-02-23 10:59:33 --> Helper loaded: string_helper
+INFO - 2021-02-23 10:59:33 --> Helper loaded: date_helper
+INFO - 2021-02-23 10:59:33 --> Helper loaded: array_helper
+INFO - 2021-02-23 10:59:33 --> Helper loaded: security_helper
+INFO - 2021-02-23 10:59:33 --> Helper loaded: text_helper
+INFO - 2021-02-23 10:59:33 --> Helper loaded: session_helper
+INFO - 2021-02-23 10:59:33 --> Controller Class Initialized
+INFO - 2021-02-23 10:59:33 --> Database Driver Class Initialized
+INFO - 2021-02-23 10:59:34 --> Database Driver Class Initialized
+INFO - 2021-02-23 10:59:35 --> Model Class Initialized
+INFO - 2021-02-23 10:59:35 --> Final output sent to browser
+INFO - 2021-02-23 10:59:35 --> Total execution time: 1.3523
+INFO - 2021-02-23 17:09:40 --> Config Class Initialized
+INFO - 2021-02-23 17:09:40 --> Hooks Class Initialized
+INFO - 2021-02-23 17:09:40 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:09:40 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:09:40 --> URI Class Initialized
+DEBUG - 2021-02-23 17:09:40 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:09:40 --> Router Class Initialized
+INFO - 2021-02-23 17:09:40 --> Output Class Initialized
+INFO - 2021-02-23 17:09:40 --> Security Class Initialized
+INFO - 2021-02-23 17:09:40 --> Input Class Initialized
+INFO - 2021-02-23 17:09:40 --> Language Class Initialized
+INFO - 2021-02-23 17:09:40 --> Loader Class Initialized
+INFO - 2021-02-23 17:09:40 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:09:40 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:09:40 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:09:40 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:09:40 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:09:40 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:09:40 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:09:40 --> Controller Class Initialized
+INFO - 2021-02-23 17:09:40 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:09:41 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:09:41 --> Model Class Initialized
+INFO - 2021-02-23 17:09:41 --> Final output sent to browser
+INFO - 2021-02-23 17:09:41 --> Total execution time: 1.5689
+INFO - 2021-02-23 17:17:38 --> Config Class Initialized
+INFO - 2021-02-23 17:17:38 --> Hooks Class Initialized
+INFO - 2021-02-23 17:17:38 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:17:38 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:17:38 --> URI Class Initialized
+DEBUG - 2021-02-23 17:17:38 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:17:38 --> Router Class Initialized
+INFO - 2021-02-23 17:17:38 --> Output Class Initialized
+INFO - 2021-02-23 17:17:38 --> Security Class Initialized
+INFO - 2021-02-23 17:17:38 --> Input Class Initialized
+INFO - 2021-02-23 17:17:38 --> Language Class Initialized
+INFO - 2021-02-23 17:17:38 --> Loader Class Initialized
+INFO - 2021-02-23 17:17:38 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:17:38 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:17:38 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:17:38 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:17:38 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:17:38 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:17:38 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:17:38 --> Controller Class Initialized
+INFO - 2021-02-23 17:17:38 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:17:39 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:17:39 --> Model Class Initialized
+INFO - 2021-02-23 17:17:39 --> Final output sent to browser
+INFO - 2021-02-23 17:17:39 --> Total execution time: 1.6409
+INFO - 2021-02-23 17:32:00 --> Config Class Initialized
+INFO - 2021-02-23 17:32:00 --> Hooks Class Initialized
+INFO - 2021-02-23 17:32:00 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:32:00 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:32:00 --> URI Class Initialized
+DEBUG - 2021-02-23 17:32:00 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:32:00 --> Router Class Initialized
+INFO - 2021-02-23 17:32:00 --> Output Class Initialized
+INFO - 2021-02-23 17:32:00 --> Security Class Initialized
+INFO - 2021-02-23 17:32:00 --> Input Class Initialized
+INFO - 2021-02-23 17:32:00 --> Language Class Initialized
+INFO - 2021-02-23 17:32:00 --> Loader Class Initialized
+INFO - 2021-02-23 17:32:00 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:32:00 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:32:00 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:32:00 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:32:00 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:32:00 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:32:00 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:32:00 --> Controller Class Initialized
+INFO - 2021-02-23 17:32:00 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:32:01 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:32:01 --> Model Class Initialized
+INFO - 2021-02-23 17:32:01 --> Final output sent to browser
+INFO - 2021-02-23 17:32:01 --> Total execution time: 1.3558
+INFO - 2021-02-23 17:38:42 --> Config Class Initialized
+INFO - 2021-02-23 17:38:42 --> Hooks Class Initialized
+INFO - 2021-02-23 17:38:42 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:38:42 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:38:42 --> URI Class Initialized
+DEBUG - 2021-02-23 17:38:42 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:38:42 --> Router Class Initialized
+INFO - 2021-02-23 17:38:42 --> Output Class Initialized
+INFO - 2021-02-23 17:38:42 --> Security Class Initialized
+INFO - 2021-02-23 17:38:42 --> Input Class Initialized
+INFO - 2021-02-23 17:38:42 --> Language Class Initialized
+INFO - 2021-02-23 17:38:42 --> Loader Class Initialized
+INFO - 2021-02-23 17:38:42 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:38:42 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:38:43 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:38:43 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:38:43 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:38:43 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:38:43 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:38:43 --> Controller Class Initialized
+INFO - 2021-02-23 17:38:43 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:38:43 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:38:44 --> Model Class Initialized
+INFO - 2021-02-23 17:38:44 --> Final output sent to browser
+INFO - 2021-02-23 17:38:44 --> Total execution time: 1.3895
+INFO - 2021-02-23 17:39:46 --> Config Class Initialized
+INFO - 2021-02-23 17:39:46 --> Hooks Class Initialized
+INFO - 2021-02-23 17:39:46 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:39:46 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:39:46 --> URI Class Initialized
+DEBUG - 2021-02-23 17:39:46 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:39:46 --> Router Class Initialized
+INFO - 2021-02-23 17:39:46 --> Output Class Initialized
+INFO - 2021-02-23 17:39:46 --> Security Class Initialized
+INFO - 2021-02-23 17:39:46 --> Input Class Initialized
+INFO - 2021-02-23 17:39:46 --> Language Class Initialized
+INFO - 2021-02-23 17:39:46 --> Loader Class Initialized
+INFO - 2021-02-23 17:39:46 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:39:46 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:39:46 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:39:46 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:39:46 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:39:46 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:39:46 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:39:46 --> Controller Class Initialized
+INFO - 2021-02-23 17:39:46 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:39:47 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:39:47 --> Model Class Initialized
+INFO - 2021-02-23 17:39:47 --> Final output sent to browser
+INFO - 2021-02-23 17:39:48 --> Total execution time: 1.2725
+INFO - 2021-02-23 17:43:57 --> Config Class Initialized
+INFO - 2021-02-23 17:43:57 --> Hooks Class Initialized
+INFO - 2021-02-23 17:43:57 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:43:57 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:43:57 --> URI Class Initialized
+DEBUG - 2021-02-23 17:43:57 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:43:57 --> Router Class Initialized
+INFO - 2021-02-23 17:43:57 --> Output Class Initialized
+INFO - 2021-02-23 17:43:57 --> Security Class Initialized
+INFO - 2021-02-23 17:43:57 --> Input Class Initialized
+INFO - 2021-02-23 17:43:57 --> Language Class Initialized
+INFO - 2021-02-23 17:43:57 --> Loader Class Initialized
+INFO - 2021-02-23 17:43:57 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:43:57 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:43:57 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:43:57 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:43:57 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:43:57 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:43:57 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:43:57 --> Controller Class Initialized
+INFO - 2021-02-23 17:43:57 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:43:57 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:43:58 --> Model Class Initialized
+INFO - 2021-02-23 17:43:58 --> Final output sent to browser
+INFO - 2021-02-23 17:43:58 --> Total execution time: 1.2929
+INFO - 2021-02-23 17:44:22 --> Config Class Initialized
+INFO - 2021-02-23 17:44:22 --> Hooks Class Initialized
+INFO - 2021-02-23 17:44:22 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:44:22 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:44:22 --> URI Class Initialized
+DEBUG - 2021-02-23 17:44:22 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:44:22 --> Router Class Initialized
+INFO - 2021-02-23 17:44:22 --> Output Class Initialized
+INFO - 2021-02-23 17:44:22 --> Security Class Initialized
+INFO - 2021-02-23 17:44:22 --> Input Class Initialized
+INFO - 2021-02-23 17:44:22 --> Language Class Initialized
+INFO - 2021-02-23 17:44:22 --> Loader Class Initialized
+INFO - 2021-02-23 17:44:22 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:44:22 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:44:22 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:44:22 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:44:22 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:44:22 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:44:22 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:44:22 --> Controller Class Initialized
+INFO - 2021-02-23 17:44:22 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:44:23 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:44:23 --> Model Class Initialized
+INFO - 2021-02-23 17:44:23 --> Final output sent to browser
+INFO - 2021-02-23 17:44:23 --> Total execution time: 1.4249
+INFO - 2021-02-23 17:44:55 --> Config Class Initialized
+INFO - 2021-02-23 17:44:55 --> Hooks Class Initialized
+INFO - 2021-02-23 17:44:55 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:44:55 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:44:55 --> URI Class Initialized
+DEBUG - 2021-02-23 17:44:55 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:44:55 --> Router Class Initialized
+INFO - 2021-02-23 17:44:55 --> Output Class Initialized
+INFO - 2021-02-23 17:44:55 --> Security Class Initialized
+INFO - 2021-02-23 17:44:55 --> Input Class Initialized
+INFO - 2021-02-23 17:44:55 --> Language Class Initialized
+INFO - 2021-02-23 17:44:55 --> Loader Class Initialized
+INFO - 2021-02-23 17:44:55 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:44:55 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:44:55 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:44:55 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:44:55 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:44:55 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:44:55 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:44:55 --> Controller Class Initialized
+INFO - 2021-02-23 17:44:55 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:44:55 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:44:56 --> Model Class Initialized
+INFO - 2021-02-23 17:44:56 --> Final output sent to browser
+INFO - 2021-02-23 17:44:56 --> Total execution time: 1.3322
+INFO - 2021-02-23 17:47:22 --> Config Class Initialized
+INFO - 2021-02-23 17:47:22 --> Hooks Class Initialized
+INFO - 2021-02-23 17:47:22 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:47:22 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:47:22 --> URI Class Initialized
+DEBUG - 2021-02-23 17:47:22 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:47:22 --> Router Class Initialized
+INFO - 2021-02-23 17:47:22 --> Output Class Initialized
+INFO - 2021-02-23 17:47:22 --> Security Class Initialized
+INFO - 2021-02-23 17:47:22 --> Input Class Initialized
+INFO - 2021-02-23 17:47:22 --> Language Class Initialized
+INFO - 2021-02-23 17:47:22 --> Loader Class Initialized
+INFO - 2021-02-23 17:47:22 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:47:22 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:47:22 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:47:22 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:47:22 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:47:22 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:47:22 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:47:22 --> Controller Class Initialized
+INFO - 2021-02-23 17:47:22 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:47:23 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:47:24 --> Model Class Initialized
+INFO - 2021-02-23 17:47:24 --> Final output sent to browser
+INFO - 2021-02-23 17:47:24 --> Total execution time: 1.3894
+INFO - 2021-02-23 17:47:58 --> Config Class Initialized
+INFO - 2021-02-23 17:47:58 --> Hooks Class Initialized
+INFO - 2021-02-23 17:47:58 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:47:58 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:47:58 --> URI Class Initialized
+DEBUG - 2021-02-23 17:47:58 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:47:58 --> Router Class Initialized
+INFO - 2021-02-23 17:47:58 --> Output Class Initialized
+INFO - 2021-02-23 17:47:58 --> Security Class Initialized
+INFO - 2021-02-23 17:47:58 --> Input Class Initialized
+INFO - 2021-02-23 17:47:58 --> Language Class Initialized
+INFO - 2021-02-23 17:47:58 --> Loader Class Initialized
+INFO - 2021-02-23 17:47:58 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:47:58 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:47:58 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:47:58 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:47:58 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:47:58 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:47:58 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:47:58 --> Controller Class Initialized
+INFO - 2021-02-23 17:47:58 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:47:59 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:47:59 --> Model Class Initialized
+INFO - 2021-02-23 17:47:59 --> Final output sent to browser
+INFO - 2021-02-23 17:47:59 --> Total execution time: 1.3500
+INFO - 2021-02-23 17:53:30 --> Config Class Initialized
+INFO - 2021-02-23 17:53:30 --> Hooks Class Initialized
+INFO - 2021-02-23 17:53:30 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:53:30 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:53:30 --> URI Class Initialized
+DEBUG - 2021-02-23 17:53:30 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:53:30 --> Router Class Initialized
+INFO - 2021-02-23 17:53:30 --> Output Class Initialized
+INFO - 2021-02-23 17:53:30 --> Security Class Initialized
+INFO - 2021-02-23 17:53:30 --> Input Class Initialized
+INFO - 2021-02-23 17:53:30 --> Language Class Initialized
+INFO - 2021-02-23 17:53:30 --> Loader Class Initialized
+INFO - 2021-02-23 17:53:30 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:53:30 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:53:31 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:53:31 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:53:31 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:53:31 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:53:31 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:53:31 --> Controller Class Initialized
+INFO - 2021-02-23 17:53:31 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:53:34 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:53:35 --> Model Class Initialized
+INFO - 2021-02-23 17:53:35 --> Final output sent to browser
+INFO - 2021-02-23 17:53:35 --> Total execution time: 4.5219
+INFO - 2021-02-23 17:55:03 --> Config Class Initialized
+INFO - 2021-02-23 17:55:03 --> Hooks Class Initialized
+INFO - 2021-02-23 17:55:03 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:55:03 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:55:03 --> URI Class Initialized
+DEBUG - 2021-02-23 17:55:03 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:55:03 --> Router Class Initialized
+INFO - 2021-02-23 17:55:03 --> Output Class Initialized
+INFO - 2021-02-23 17:55:03 --> Security Class Initialized
+INFO - 2021-02-23 17:55:03 --> Input Class Initialized
+INFO - 2021-02-23 17:55:03 --> Language Class Initialized
+INFO - 2021-02-23 17:55:03 --> Loader Class Initialized
+INFO - 2021-02-23 17:55:03 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:55:03 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:55:03 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:55:03 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:55:03 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:55:03 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:55:03 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:55:03 --> Controller Class Initialized
+INFO - 2021-02-23 17:55:03 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:55:04 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:55:05 --> Model Class Initialized
+INFO - 2021-02-23 17:55:05 --> Final output sent to browser
+INFO - 2021-02-23 17:55:05 --> Total execution time: 1.5634
+INFO - 2021-02-23 17:55:47 --> Config Class Initialized
+INFO - 2021-02-23 17:55:47 --> Hooks Class Initialized
+INFO - 2021-02-23 17:55:48 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:55:48 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:55:48 --> URI Class Initialized
+DEBUG - 2021-02-23 17:55:48 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:55:48 --> Router Class Initialized
+INFO - 2021-02-23 17:55:48 --> Output Class Initialized
+INFO - 2021-02-23 17:55:48 --> Security Class Initialized
+INFO - 2021-02-23 17:55:48 --> Input Class Initialized
+INFO - 2021-02-23 17:55:48 --> Language Class Initialized
+INFO - 2021-02-23 17:55:48 --> Loader Class Initialized
+INFO - 2021-02-23 17:55:48 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:55:48 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:55:48 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:55:48 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:55:48 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:55:48 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:55:48 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:55:48 --> Controller Class Initialized
+INFO - 2021-02-23 17:55:48 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:55:48 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:55:49 --> Model Class Initialized
+INFO - 2021-02-23 17:55:49 --> Final output sent to browser
+INFO - 2021-02-23 17:55:49 --> Total execution time: 1.4208
+INFO - 2021-02-23 17:57:11 --> Config Class Initialized
+INFO - 2021-02-23 17:57:11 --> Hooks Class Initialized
+INFO - 2021-02-23 17:57:11 --> UTF-8 Support Enabled
+INFO - 2021-02-23 17:57:11 --> Utf8 Class Initialized
+INFO - 2021-02-23 17:57:11 --> URI Class Initialized
+DEBUG - 2021-02-23 17:57:11 --> No URI present. Default controller set.
+INFO - 2021-02-23 17:57:11 --> Router Class Initialized
+INFO - 2021-02-23 17:57:11 --> Output Class Initialized
+INFO - 2021-02-23 17:57:11 --> Security Class Initialized
+INFO - 2021-02-23 17:57:11 --> Input Class Initialized
+INFO - 2021-02-23 17:57:11 --> Language Class Initialized
+INFO - 2021-02-23 17:57:11 --> Loader Class Initialized
+INFO - 2021-02-23 17:57:11 --> Helper loaded: url_helper
+INFO - 2021-02-23 17:57:11 --> Helper loaded: string_helper
+INFO - 2021-02-23 17:57:11 --> Helper loaded: date_helper
+INFO - 2021-02-23 17:57:11 --> Helper loaded: array_helper
+INFO - 2021-02-23 17:57:11 --> Helper loaded: security_helper
+INFO - 2021-02-23 17:57:11 --> Helper loaded: text_helper
+INFO - 2021-02-23 17:57:11 --> Helper loaded: session_helper
+INFO - 2021-02-23 17:57:11 --> Controller Class Initialized
+INFO - 2021-02-23 17:57:11 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:57:12 --> Database Driver Class Initialized
+INFO - 2021-02-23 17:57:12 --> Model Class Initialized
+INFO - 2021-02-23 17:57:12 --> Final output sent to browser
+INFO - 2021-02-23 17:57:12 --> Total execution time: 1.4569
+INFO - 2021-02-23 18:06:56 --> Config Class Initialized
+INFO - 2021-02-23 18:06:56 --> Hooks Class Initialized
+INFO - 2021-02-23 18:06:56 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:06:56 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:06:56 --> URI Class Initialized
+DEBUG - 2021-02-23 18:06:56 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:06:56 --> Router Class Initialized
+INFO - 2021-02-23 18:06:56 --> Output Class Initialized
+INFO - 2021-02-23 18:06:56 --> Security Class Initialized
+INFO - 2021-02-23 18:06:56 --> Input Class Initialized
+INFO - 2021-02-23 18:06:56 --> Language Class Initialized
+INFO - 2021-02-23 18:06:56 --> Loader Class Initialized
+INFO - 2021-02-23 18:06:56 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:06:56 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:06:56 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:06:56 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:06:56 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:06:56 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:06:56 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:06:56 --> Controller Class Initialized
+INFO - 2021-02-23 18:06:56 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:06:57 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:06:58 --> Model Class Initialized
+INFO - 2021-02-23 18:06:58 --> Final output sent to browser
+INFO - 2021-02-23 18:06:58 --> Total execution time: 1.5651
+INFO - 2021-02-23 18:11:20 --> Config Class Initialized
+INFO - 2021-02-23 18:11:20 --> Hooks Class Initialized
+INFO - 2021-02-23 18:11:20 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:11:20 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:11:20 --> URI Class Initialized
+DEBUG - 2021-02-23 18:11:20 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:11:20 --> Router Class Initialized
+INFO - 2021-02-23 18:11:20 --> Output Class Initialized
+INFO - 2021-02-23 18:11:20 --> Security Class Initialized
+INFO - 2021-02-23 18:11:20 --> Input Class Initialized
+INFO - 2021-02-23 18:11:20 --> Language Class Initialized
+INFO - 2021-02-23 18:11:20 --> Loader Class Initialized
+INFO - 2021-02-23 18:11:20 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:11:20 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:11:20 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:11:20 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:11:20 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:11:20 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:11:20 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:11:20 --> Controller Class Initialized
+INFO - 2021-02-23 18:11:20 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:11:21 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:11:21 --> Model Class Initialized
+INFO - 2021-02-23 18:11:21 --> Final output sent to browser
+INFO - 2021-02-23 18:11:21 --> Total execution time: 1.5787
+INFO - 2021-02-23 18:16:12 --> Config Class Initialized
+INFO - 2021-02-23 18:16:12 --> Hooks Class Initialized
+INFO - 2021-02-23 18:16:12 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:16:12 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:16:12 --> URI Class Initialized
+DEBUG - 2021-02-23 18:16:12 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:16:12 --> Router Class Initialized
+INFO - 2021-02-23 18:16:12 --> Output Class Initialized
+INFO - 2021-02-23 18:16:12 --> Security Class Initialized
+INFO - 2021-02-23 18:16:12 --> Input Class Initialized
+INFO - 2021-02-23 18:16:12 --> Language Class Initialized
+INFO - 2021-02-23 18:16:12 --> Loader Class Initialized
+INFO - 2021-02-23 18:16:12 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:16:12 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:16:12 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:16:12 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:16:12 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:16:13 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:16:13 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:16:13 --> Controller Class Initialized
+INFO - 2021-02-23 18:16:13 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:16:14 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:16:18 --> Model Class Initialized
+INFO - 2021-02-23 18:16:18 --> Final output sent to browser
+INFO - 2021-02-23 18:16:18 --> Total execution time: 5.7710
+INFO - 2021-02-23 18:19:43 --> Config Class Initialized
+INFO - 2021-02-23 18:19:43 --> Hooks Class Initialized
+INFO - 2021-02-23 18:19:43 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:19:43 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:19:43 --> URI Class Initialized
+DEBUG - 2021-02-23 18:19:43 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:19:43 --> Router Class Initialized
+INFO - 2021-02-23 18:19:43 --> Output Class Initialized
+INFO - 2021-02-23 18:19:43 --> Security Class Initialized
+INFO - 2021-02-23 18:19:43 --> Input Class Initialized
+INFO - 2021-02-23 18:19:43 --> Language Class Initialized
+INFO - 2021-02-23 18:19:43 --> Loader Class Initialized
+INFO - 2021-02-23 18:19:43 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:19:43 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:19:43 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:19:43 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:19:43 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:19:43 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:19:43 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:19:43 --> Controller Class Initialized
+INFO - 2021-02-23 18:19:43 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:19:44 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:19:44 --> Model Class Initialized
+INFO - 2021-02-23 18:19:44 --> Final output sent to browser
+INFO - 2021-02-23 18:19:44 --> Total execution time: 1.2974
+INFO - 2021-02-23 18:25:31 --> Config Class Initialized
+INFO - 2021-02-23 18:25:31 --> Hooks Class Initialized
+INFO - 2021-02-23 18:25:31 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:25:31 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:25:31 --> URI Class Initialized
+DEBUG - 2021-02-23 18:25:31 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:25:31 --> Router Class Initialized
+INFO - 2021-02-23 18:25:31 --> Output Class Initialized
+INFO - 2021-02-23 18:25:31 --> Security Class Initialized
+INFO - 2021-02-23 18:25:31 --> Input Class Initialized
+INFO - 2021-02-23 18:25:31 --> Language Class Initialized
+INFO - 2021-02-23 18:25:31 --> Loader Class Initialized
+INFO - 2021-02-23 18:25:31 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:25:31 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:25:31 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:25:31 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:25:31 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:25:31 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:25:31 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:25:31 --> Controller Class Initialized
+INFO - 2021-02-23 18:25:31 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:25:31 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:25:32 --> Model Class Initialized
+INFO - 2021-02-23 18:25:32 --> Final output sent to browser
+INFO - 2021-02-23 18:25:32 --> Total execution time: 1.4313
+INFO - 2021-02-23 18:28:05 --> Config Class Initialized
+INFO - 2021-02-23 18:28:05 --> Hooks Class Initialized
+INFO - 2021-02-23 18:28:05 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:28:05 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:28:05 --> URI Class Initialized
+DEBUG - 2021-02-23 18:28:05 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:28:05 --> Router Class Initialized
+INFO - 2021-02-23 18:28:06 --> Output Class Initialized
+INFO - 2021-02-23 18:28:06 --> Security Class Initialized
+INFO - 2021-02-23 18:28:06 --> Input Class Initialized
+INFO - 2021-02-23 18:28:06 --> Language Class Initialized
+INFO - 2021-02-23 18:28:06 --> Loader Class Initialized
+INFO - 2021-02-23 18:28:06 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:28:06 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:28:06 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:28:06 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:28:06 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:28:06 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:28:06 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:28:06 --> Controller Class Initialized
+INFO - 2021-02-23 18:28:06 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:28:06 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:28:07 --> Model Class Initialized
+INFO - 2021-02-23 18:28:07 --> Final output sent to browser
+INFO - 2021-02-23 18:28:07 --> Total execution time: 1.3145
+INFO - 2021-02-23 18:28:23 --> Config Class Initialized
+INFO - 2021-02-23 18:28:23 --> Hooks Class Initialized
+INFO - 2021-02-23 18:28:23 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:28:23 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:28:23 --> URI Class Initialized
+DEBUG - 2021-02-23 18:28:23 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:28:23 --> Router Class Initialized
+INFO - 2021-02-23 18:28:23 --> Output Class Initialized
+INFO - 2021-02-23 18:28:23 --> Security Class Initialized
+INFO - 2021-02-23 18:28:23 --> Input Class Initialized
+INFO - 2021-02-23 18:28:23 --> Language Class Initialized
+INFO - 2021-02-23 18:28:23 --> Loader Class Initialized
+INFO - 2021-02-23 18:28:23 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:28:23 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:28:23 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:28:23 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:28:23 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:28:23 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:28:23 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:28:23 --> Controller Class Initialized
+INFO - 2021-02-23 18:28:23 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:28:24 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:28:24 --> Model Class Initialized
+INFO - 2021-02-23 18:28:24 --> Final output sent to browser
+INFO - 2021-02-23 18:28:24 --> Total execution time: 1.3447
+INFO - 2021-02-23 18:29:00 --> Config Class Initialized
+INFO - 2021-02-23 18:29:00 --> Hooks Class Initialized
+INFO - 2021-02-23 18:29:00 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:29:00 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:29:00 --> URI Class Initialized
+DEBUG - 2021-02-23 18:29:00 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:29:00 --> Router Class Initialized
+INFO - 2021-02-23 18:29:00 --> Output Class Initialized
+INFO - 2021-02-23 18:29:00 --> Security Class Initialized
+INFO - 2021-02-23 18:29:00 --> Input Class Initialized
+INFO - 2021-02-23 18:29:00 --> Language Class Initialized
+INFO - 2021-02-23 18:29:00 --> Loader Class Initialized
+INFO - 2021-02-23 18:29:00 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:29:00 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:29:00 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:29:00 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:29:00 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:29:00 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:29:00 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:29:00 --> Controller Class Initialized
+INFO - 2021-02-23 18:29:00 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:29:00 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:29:01 --> Model Class Initialized
+INFO - 2021-02-23 18:29:01 --> Final output sent to browser
+INFO - 2021-02-23 18:29:01 --> Total execution time: 1.4619
+INFO - 2021-02-23 18:29:07 --> Config Class Initialized
+INFO - 2021-02-23 18:29:07 --> Hooks Class Initialized
+INFO - 2021-02-23 18:29:07 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:29:07 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:29:07 --> URI Class Initialized
+DEBUG - 2021-02-23 18:29:07 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:29:07 --> Router Class Initialized
+INFO - 2021-02-23 18:29:07 --> Output Class Initialized
+INFO - 2021-02-23 18:29:07 --> Security Class Initialized
+INFO - 2021-02-23 18:29:07 --> Input Class Initialized
+INFO - 2021-02-23 18:29:07 --> Language Class Initialized
+INFO - 2021-02-23 18:29:07 --> Loader Class Initialized
+INFO - 2021-02-23 18:29:07 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:29:07 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:29:07 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:29:07 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:29:07 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:29:07 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:29:07 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:29:07 --> Controller Class Initialized
+INFO - 2021-02-23 18:29:07 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:29:08 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:29:09 --> Model Class Initialized
+INFO - 2021-02-23 18:29:09 --> Final output sent to browser
+INFO - 2021-02-23 18:29:09 --> Total execution time: 1.3998
+INFO - 2021-02-23 18:34:58 --> Config Class Initialized
+INFO - 2021-02-23 18:34:58 --> Hooks Class Initialized
+INFO - 2021-02-23 18:34:58 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:34:58 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:34:58 --> URI Class Initialized
+DEBUG - 2021-02-23 18:34:58 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:34:58 --> Router Class Initialized
+INFO - 2021-02-23 18:34:58 --> Output Class Initialized
+INFO - 2021-02-23 18:34:58 --> Security Class Initialized
+INFO - 2021-02-23 18:34:58 --> Input Class Initialized
+INFO - 2021-02-23 18:34:58 --> Language Class Initialized
+INFO - 2021-02-23 18:34:58 --> Loader Class Initialized
+INFO - 2021-02-23 18:34:58 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:34:58 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:34:58 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:34:58 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:34:58 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:34:58 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:34:58 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:34:58 --> Controller Class Initialized
+INFO - 2021-02-23 18:34:58 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:34:59 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:34:59 --> Model Class Initialized
+INFO - 2021-02-23 18:34:59 --> Final output sent to browser
+INFO - 2021-02-23 18:34:59 --> Total execution time: 1.3770
+INFO - 2021-02-23 18:35:55 --> Config Class Initialized
+INFO - 2021-02-23 18:35:55 --> Hooks Class Initialized
+INFO - 2021-02-23 18:35:55 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:35:55 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:35:55 --> URI Class Initialized
+DEBUG - 2021-02-23 18:35:55 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:35:55 --> Router Class Initialized
+INFO - 2021-02-23 18:35:55 --> Output Class Initialized
+INFO - 2021-02-23 18:35:55 --> Security Class Initialized
+INFO - 2021-02-23 18:35:55 --> Input Class Initialized
+INFO - 2021-02-23 18:35:55 --> Language Class Initialized
+INFO - 2021-02-23 18:35:56 --> Loader Class Initialized
+INFO - 2021-02-23 18:35:56 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:35:56 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:35:56 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:35:56 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:35:56 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:35:56 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:35:56 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:35:56 --> Controller Class Initialized
+INFO - 2021-02-23 18:35:56 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:35:56 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:35:57 --> Model Class Initialized
+INFO - 2021-02-23 18:35:57 --> Final output sent to browser
+INFO - 2021-02-23 18:35:57 --> Total execution time: 1.5489
+INFO - 2021-02-23 18:36:08 --> Config Class Initialized
+INFO - 2021-02-23 18:36:08 --> Hooks Class Initialized
+INFO - 2021-02-23 18:36:08 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:36:08 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:36:08 --> URI Class Initialized
+DEBUG - 2021-02-23 18:36:08 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:36:08 --> Router Class Initialized
+INFO - 2021-02-23 18:36:08 --> Output Class Initialized
+INFO - 2021-02-23 18:36:08 --> Security Class Initialized
+INFO - 2021-02-23 18:36:08 --> Input Class Initialized
+INFO - 2021-02-23 18:36:08 --> Language Class Initialized
+INFO - 2021-02-23 18:36:08 --> Loader Class Initialized
+INFO - 2021-02-23 18:36:08 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:36:08 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:36:08 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:36:08 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:36:08 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:36:08 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:36:08 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:36:08 --> Controller Class Initialized
+INFO - 2021-02-23 18:36:08 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:36:09 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:36:11 --> Model Class Initialized
+INFO - 2021-02-23 18:36:11 --> Final output sent to browser
+INFO - 2021-02-23 18:36:11 --> Total execution time: 2.5960
+INFO - 2021-02-23 18:36:31 --> Config Class Initialized
+INFO - 2021-02-23 18:36:31 --> Hooks Class Initialized
+INFO - 2021-02-23 18:36:31 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:36:31 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:36:31 --> URI Class Initialized
+DEBUG - 2021-02-23 18:36:31 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:36:31 --> Router Class Initialized
+INFO - 2021-02-23 18:36:31 --> Output Class Initialized
+INFO - 2021-02-23 18:36:31 --> Security Class Initialized
+INFO - 2021-02-23 18:36:31 --> Input Class Initialized
+INFO - 2021-02-23 18:36:31 --> Language Class Initialized
+INFO - 2021-02-23 18:36:31 --> Loader Class Initialized
+INFO - 2021-02-23 18:36:31 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:36:31 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:36:31 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:36:31 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:36:31 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:36:31 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:36:31 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:36:31 --> Controller Class Initialized
+INFO - 2021-02-23 18:36:31 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:36:32 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:36:32 --> Model Class Initialized
+INFO - 2021-02-23 18:36:32 --> Final output sent to browser
+INFO - 2021-02-23 18:36:32 --> Total execution time: 1.4592
+INFO - 2021-02-23 18:36:40 --> Config Class Initialized
+INFO - 2021-02-23 18:36:40 --> Hooks Class Initialized
+INFO - 2021-02-23 18:36:40 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:36:40 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:36:40 --> URI Class Initialized
+DEBUG - 2021-02-23 18:36:40 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:36:40 --> Router Class Initialized
+INFO - 2021-02-23 18:36:40 --> Output Class Initialized
+INFO - 2021-02-23 18:36:40 --> Security Class Initialized
+INFO - 2021-02-23 18:36:40 --> Input Class Initialized
+INFO - 2021-02-23 18:36:40 --> Language Class Initialized
+INFO - 2021-02-23 18:36:40 --> Loader Class Initialized
+INFO - 2021-02-23 18:36:40 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:36:40 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:36:40 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:36:40 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:36:40 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:36:40 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:36:40 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:36:40 --> Controller Class Initialized
+INFO - 2021-02-23 18:36:40 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:36:41 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:36:41 --> Model Class Initialized
+INFO - 2021-02-23 18:36:41 --> Final output sent to browser
+INFO - 2021-02-23 18:36:41 --> Total execution time: 1.2852
+INFO - 2021-02-23 18:37:01 --> Config Class Initialized
+INFO - 2021-02-23 18:37:01 --> Hooks Class Initialized
+INFO - 2021-02-23 18:37:01 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:37:01 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:37:01 --> URI Class Initialized
+DEBUG - 2021-02-23 18:37:01 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:37:01 --> Router Class Initialized
+INFO - 2021-02-23 18:37:01 --> Output Class Initialized
+INFO - 2021-02-23 18:37:01 --> Security Class Initialized
+INFO - 2021-02-23 18:37:01 --> Input Class Initialized
+INFO - 2021-02-23 18:37:01 --> Language Class Initialized
+INFO - 2021-02-23 18:37:01 --> Loader Class Initialized
+INFO - 2021-02-23 18:37:01 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:37:01 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:37:01 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:37:01 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:37:01 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:37:01 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:37:01 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:37:01 --> Controller Class Initialized
+INFO - 2021-02-23 18:37:01 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:37:02 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:37:03 --> Model Class Initialized
+INFO - 2021-02-23 18:37:03 --> Final output sent to browser
+INFO - 2021-02-23 18:37:03 --> Total execution time: 2.0294
+INFO - 2021-02-23 18:37:27 --> Config Class Initialized
+INFO - 2021-02-23 18:37:27 --> Hooks Class Initialized
+INFO - 2021-02-23 18:37:27 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:37:27 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:37:27 --> URI Class Initialized
+DEBUG - 2021-02-23 18:37:27 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:37:27 --> Router Class Initialized
+INFO - 2021-02-23 18:37:27 --> Output Class Initialized
+INFO - 2021-02-23 18:37:27 --> Security Class Initialized
+INFO - 2021-02-23 18:37:27 --> Input Class Initialized
+INFO - 2021-02-23 18:37:27 --> Language Class Initialized
+INFO - 2021-02-23 18:37:27 --> Loader Class Initialized
+INFO - 2021-02-23 18:37:27 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:37:27 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:37:27 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:37:27 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:37:27 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:37:27 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:37:27 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:37:27 --> Controller Class Initialized
+INFO - 2021-02-23 18:37:27 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:37:27 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:37:28 --> Model Class Initialized
+INFO - 2021-02-23 18:37:28 --> Final output sent to browser
+INFO - 2021-02-23 18:37:28 --> Total execution time: 1.4687
+INFO - 2021-02-23 18:40:13 --> Config Class Initialized
+INFO - 2021-02-23 18:40:13 --> Hooks Class Initialized
+INFO - 2021-02-23 18:40:13 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:40:13 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:40:13 --> URI Class Initialized
+DEBUG - 2021-02-23 18:40:13 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:40:13 --> Router Class Initialized
+INFO - 2021-02-23 18:40:13 --> Output Class Initialized
+INFO - 2021-02-23 18:40:13 --> Security Class Initialized
+INFO - 2021-02-23 18:40:13 --> Input Class Initialized
+INFO - 2021-02-23 18:40:13 --> Language Class Initialized
+INFO - 2021-02-23 18:40:13 --> Loader Class Initialized
+INFO - 2021-02-23 18:40:13 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:40:13 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:40:13 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:40:13 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:40:13 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:40:14 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:40:14 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:40:14 --> Controller Class Initialized
+INFO - 2021-02-23 18:40:14 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:40:14 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:40:15 --> Model Class Initialized
+INFO - 2021-02-23 18:40:15 --> Final output sent to browser
+INFO - 2021-02-23 18:40:15 --> Total execution time: 1.3485
+INFO - 2021-02-23 18:41:00 --> Config Class Initialized
+INFO - 2021-02-23 18:41:00 --> Hooks Class Initialized
+INFO - 2021-02-23 18:41:00 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:41:00 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:41:00 --> URI Class Initialized
+DEBUG - 2021-02-23 18:41:00 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:41:00 --> Router Class Initialized
+INFO - 2021-02-23 18:41:00 --> Output Class Initialized
+INFO - 2021-02-23 18:41:00 --> Security Class Initialized
+INFO - 2021-02-23 18:41:00 --> Input Class Initialized
+INFO - 2021-02-23 18:41:00 --> Language Class Initialized
+INFO - 2021-02-23 18:41:00 --> Loader Class Initialized
+INFO - 2021-02-23 18:41:00 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:41:00 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:41:00 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:41:00 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:41:00 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:41:00 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:41:00 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:41:00 --> Controller Class Initialized
+INFO - 2021-02-23 18:41:00 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:41:00 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:41:01 --> Model Class Initialized
+INFO - 2021-02-23 18:41:01 --> Final output sent to browser
+INFO - 2021-02-23 18:41:01 --> Total execution time: 1.6109
+INFO - 2021-02-23 18:41:06 --> Config Class Initialized
+INFO - 2021-02-23 18:41:06 --> Hooks Class Initialized
+INFO - 2021-02-23 18:41:06 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:41:06 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:41:06 --> URI Class Initialized
+DEBUG - 2021-02-23 18:41:06 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:41:06 --> Router Class Initialized
+INFO - 2021-02-23 18:41:06 --> Output Class Initialized
+INFO - 2021-02-23 18:41:06 --> Security Class Initialized
+INFO - 2021-02-23 18:41:06 --> Input Class Initialized
+INFO - 2021-02-23 18:41:06 --> Language Class Initialized
+INFO - 2021-02-23 18:41:06 --> Loader Class Initialized
+INFO - 2021-02-23 18:41:06 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:41:06 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:41:06 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:41:06 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:41:06 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:41:06 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:41:06 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:41:06 --> Controller Class Initialized
+INFO - 2021-02-23 18:41:06 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:41:07 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:41:07 --> Model Class Initialized
+INFO - 2021-02-23 18:41:07 --> Final output sent to browser
+INFO - 2021-02-23 18:41:07 --> Total execution time: 1.6350
+INFO - 2021-02-23 18:41:12 --> Config Class Initialized
+INFO - 2021-02-23 18:41:12 --> Hooks Class Initialized
+INFO - 2021-02-23 18:41:12 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:41:12 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:41:12 --> URI Class Initialized
+DEBUG - 2021-02-23 18:41:12 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:41:12 --> Router Class Initialized
+INFO - 2021-02-23 18:41:12 --> Output Class Initialized
+INFO - 2021-02-23 18:41:12 --> Security Class Initialized
+INFO - 2021-02-23 18:41:12 --> Input Class Initialized
+INFO - 2021-02-23 18:41:12 --> Language Class Initialized
+INFO - 2021-02-23 18:41:13 --> Loader Class Initialized
+INFO - 2021-02-23 18:41:13 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:41:13 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:41:13 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:41:13 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:41:13 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:41:13 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:41:13 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:41:13 --> Controller Class Initialized
+INFO - 2021-02-23 18:41:13 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:41:13 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:41:14 --> Model Class Initialized
+INFO - 2021-02-23 18:41:14 --> Final output sent to browser
+INFO - 2021-02-23 18:41:14 --> Total execution time: 1.3404
+INFO - 2021-02-23 18:42:47 --> Config Class Initialized
+INFO - 2021-02-23 18:42:47 --> Hooks Class Initialized
+INFO - 2021-02-23 18:42:47 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:42:47 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:42:47 --> URI Class Initialized
+DEBUG - 2021-02-23 18:42:47 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:42:47 --> Router Class Initialized
+INFO - 2021-02-23 18:42:47 --> Output Class Initialized
+INFO - 2021-02-23 18:42:47 --> Security Class Initialized
+INFO - 2021-02-23 18:42:47 --> Input Class Initialized
+INFO - 2021-02-23 18:42:47 --> Language Class Initialized
+INFO - 2021-02-23 18:42:47 --> Loader Class Initialized
+INFO - 2021-02-23 18:42:47 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:42:47 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:42:47 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:42:47 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:42:47 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:42:47 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:42:47 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:42:47 --> Controller Class Initialized
+INFO - 2021-02-23 18:42:47 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:42:47 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:42:48 --> Model Class Initialized
+INFO - 2021-02-23 18:42:48 --> Final output sent to browser
+INFO - 2021-02-23 18:42:48 --> Total execution time: 1.4817
+INFO - 2021-02-23 18:43:02 --> Config Class Initialized
+INFO - 2021-02-23 18:43:02 --> Hooks Class Initialized
+INFO - 2021-02-23 18:43:02 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:43:02 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:43:02 --> URI Class Initialized
+DEBUG - 2021-02-23 18:43:02 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:43:02 --> Router Class Initialized
+INFO - 2021-02-23 18:43:02 --> Output Class Initialized
+INFO - 2021-02-23 18:43:02 --> Security Class Initialized
+INFO - 2021-02-23 18:43:02 --> Input Class Initialized
+INFO - 2021-02-23 18:43:02 --> Language Class Initialized
+INFO - 2021-02-23 18:43:02 --> Loader Class Initialized
+INFO - 2021-02-23 18:43:02 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:43:02 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:43:02 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:43:02 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:43:02 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:43:02 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:43:02 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:43:02 --> Controller Class Initialized
+INFO - 2021-02-23 18:43:02 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:03 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:04 --> Model Class Initialized
+INFO - 2021-02-23 18:43:04 --> Final output sent to browser
+INFO - 2021-02-23 18:43:04 --> Total execution time: 1.3928
+INFO - 2021-02-23 18:43:24 --> Config Class Initialized
+INFO - 2021-02-23 18:43:24 --> Hooks Class Initialized
+INFO - 2021-02-23 18:43:24 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:43:24 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:43:24 --> URI Class Initialized
+DEBUG - 2021-02-23 18:43:24 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:43:24 --> Router Class Initialized
+INFO - 2021-02-23 18:43:24 --> Output Class Initialized
+INFO - 2021-02-23 18:43:24 --> Security Class Initialized
+INFO - 2021-02-23 18:43:24 --> Input Class Initialized
+INFO - 2021-02-23 18:43:24 --> Language Class Initialized
+INFO - 2021-02-23 18:43:24 --> Loader Class Initialized
+INFO - 2021-02-23 18:43:24 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:43:24 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:43:24 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:43:24 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:43:24 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:43:24 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:43:24 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:43:24 --> Controller Class Initialized
+INFO - 2021-02-23 18:43:24 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:25 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:25 --> Model Class Initialized
+INFO - 2021-02-23 18:43:25 --> Final output sent to browser
+INFO - 2021-02-23 18:43:25 --> Total execution time: 1.4902
+INFO - 2021-02-23 18:43:28 --> Config Class Initialized
+INFO - 2021-02-23 18:43:28 --> Hooks Class Initialized
+INFO - 2021-02-23 18:43:28 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:43:28 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:43:28 --> URI Class Initialized
+DEBUG - 2021-02-23 18:43:28 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:43:28 --> Router Class Initialized
+INFO - 2021-02-23 18:43:28 --> Output Class Initialized
+INFO - 2021-02-23 18:43:28 --> Security Class Initialized
+INFO - 2021-02-23 18:43:28 --> Input Class Initialized
+INFO - 2021-02-23 18:43:28 --> Language Class Initialized
+INFO - 2021-02-23 18:43:28 --> Loader Class Initialized
+INFO - 2021-02-23 18:43:28 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:43:28 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:43:28 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:43:28 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:43:29 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:43:29 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:43:29 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:43:29 --> Controller Class Initialized
+INFO - 2021-02-23 18:43:29 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:29 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:30 --> Model Class Initialized
+INFO - 2021-02-23 18:43:30 --> Final output sent to browser
+INFO - 2021-02-23 18:43:30 --> Total execution time: 1.3822
+INFO - 2021-02-23 18:43:34 --> Config Class Initialized
+INFO - 2021-02-23 18:43:34 --> Hooks Class Initialized
+INFO - 2021-02-23 18:43:34 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:43:35 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:43:35 --> URI Class Initialized
+DEBUG - 2021-02-23 18:43:35 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:43:35 --> Router Class Initialized
+INFO - 2021-02-23 18:43:35 --> Output Class Initialized
+INFO - 2021-02-23 18:43:35 --> Security Class Initialized
+INFO - 2021-02-23 18:43:35 --> Input Class Initialized
+INFO - 2021-02-23 18:43:35 --> Language Class Initialized
+INFO - 2021-02-23 18:43:35 --> Loader Class Initialized
+INFO - 2021-02-23 18:43:35 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:43:35 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:43:35 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:43:35 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:43:35 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:43:35 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:43:35 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:43:35 --> Controller Class Initialized
+INFO - 2021-02-23 18:43:35 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:36 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:36 --> Model Class Initialized
+INFO - 2021-02-23 18:43:36 --> Final output sent to browser
+INFO - 2021-02-23 18:43:36 --> Total execution time: 1.8283
+INFO - 2021-02-23 18:43:42 --> Config Class Initialized
+INFO - 2021-02-23 18:43:42 --> Hooks Class Initialized
+INFO - 2021-02-23 18:43:42 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:43:42 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:43:42 --> URI Class Initialized
+DEBUG - 2021-02-23 18:43:42 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:43:42 --> Router Class Initialized
+INFO - 2021-02-23 18:43:42 --> Output Class Initialized
+INFO - 2021-02-23 18:43:42 --> Security Class Initialized
+INFO - 2021-02-23 18:43:43 --> Input Class Initialized
+INFO - 2021-02-23 18:43:43 --> Language Class Initialized
+INFO - 2021-02-23 18:43:43 --> Loader Class Initialized
+INFO - 2021-02-23 18:43:43 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:43:43 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:43:43 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:43:43 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:43:43 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:43:43 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:43:43 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:43:43 --> Controller Class Initialized
+INFO - 2021-02-23 18:43:43 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:43 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:44 --> Model Class Initialized
+INFO - 2021-02-23 18:43:44 --> Final output sent to browser
+INFO - 2021-02-23 18:43:44 --> Total execution time: 1.5508
+INFO - 2021-02-23 18:43:49 --> Config Class Initialized
+INFO - 2021-02-23 18:43:49 --> Hooks Class Initialized
+INFO - 2021-02-23 18:43:49 --> UTF-8 Support Enabled
+INFO - 2021-02-23 18:43:49 --> Utf8 Class Initialized
+INFO - 2021-02-23 18:43:49 --> URI Class Initialized
+DEBUG - 2021-02-23 18:43:49 --> No URI present. Default controller set.
+INFO - 2021-02-23 18:43:49 --> Router Class Initialized
+INFO - 2021-02-23 18:43:49 --> Output Class Initialized
+INFO - 2021-02-23 18:43:49 --> Security Class Initialized
+INFO - 2021-02-23 18:43:49 --> Input Class Initialized
+INFO - 2021-02-23 18:43:49 --> Language Class Initialized
+INFO - 2021-02-23 18:43:49 --> Loader Class Initialized
+INFO - 2021-02-23 18:43:49 --> Helper loaded: url_helper
+INFO - 2021-02-23 18:43:49 --> Helper loaded: string_helper
+INFO - 2021-02-23 18:43:49 --> Helper loaded: date_helper
+INFO - 2021-02-23 18:43:49 --> Helper loaded: array_helper
+INFO - 2021-02-23 18:43:49 --> Helper loaded: security_helper
+INFO - 2021-02-23 18:43:49 --> Helper loaded: text_helper
+INFO - 2021-02-23 18:43:49 --> Helper loaded: session_helper
+INFO - 2021-02-23 18:43:49 --> Controller Class Initialized
+INFO - 2021-02-23 18:43:49 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:49 --> Database Driver Class Initialized
+INFO - 2021-02-23 18:43:50 --> Model Class Initialized
+INFO - 2021-02-23 18:43:50 --> Final output sent to browser
+INFO - 2021-02-23 18:43:50 --> Total execution time: 1.3904

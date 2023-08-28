@@ -1,0 +1,225 @@
+INFO - 2020-10-11 13:09:57 --> Config Class Initialized
+INFO - 2020-10-11 13:09:58 --> Hooks Class Initialized
+INFO - 2020-10-11 13:09:58 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:09:58 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:09:58 --> URI Class Initialized
+DEBUG - 2020-10-11 13:09:58 --> No URI present. Default controller set.
+INFO - 2020-10-11 13:09:58 --> Router Class Initialized
+INFO - 2020-10-11 13:09:58 --> Output Class Initialized
+INFO - 2020-10-11 13:09:58 --> Security Class Initialized
+INFO - 2020-10-11 13:09:58 --> Input Class Initialized
+INFO - 2020-10-11 13:09:58 --> Language Class Initialized
+INFO - 2020-10-11 13:09:59 --> Loader Class Initialized
+INFO - 2020-10-11 13:09:59 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:09:59 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:09:59 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:09:59 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:09:59 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:09:59 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:09:59 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:09:59 --> Controller Class Initialized
+INFO - 2020-10-11 13:10:00 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:10:01 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:10:01 --> Model Class Initialized
+INFO - 2020-10-11 13:10:01 --> Final output sent to browser
+INFO - 2020-10-11 13:10:02 --> Total execution time: 4.1701
+INFO - 2020-10-11 13:25:16 --> Config Class Initialized
+INFO - 2020-10-11 13:25:16 --> Hooks Class Initialized
+INFO - 2020-10-11 13:25:16 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:25:16 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:25:16 --> URI Class Initialized
+DEBUG - 2020-10-11 13:25:16 --> No URI present. Default controller set.
+INFO - 2020-10-11 13:25:16 --> Router Class Initialized
+INFO - 2020-10-11 13:25:17 --> Output Class Initialized
+INFO - 2020-10-11 13:25:17 --> Security Class Initialized
+INFO - 2020-10-11 13:25:17 --> Input Class Initialized
+INFO - 2020-10-11 13:25:17 --> Language Class Initialized
+INFO - 2020-10-11 13:25:17 --> Loader Class Initialized
+INFO - 2020-10-11 13:25:17 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:25:17 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:25:17 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:25:17 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:25:17 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:25:17 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:25:17 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:25:17 --> Controller Class Initialized
+INFO - 2020-10-11 13:25:17 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:25:17 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:25:18 --> Model Class Initialized
+INFO - 2020-10-11 13:25:18 --> Final output sent to browser
+INFO - 2020-10-11 13:25:18 --> Total execution time: 1.5767
+INFO - 2020-10-11 13:25:32 --> Config Class Initialized
+INFO - 2020-10-11 13:25:32 --> Hooks Class Initialized
+INFO - 2020-10-11 13:25:32 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:25:32 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:25:32 --> URI Class Initialized
+DEBUG - 2020-10-11 13:25:32 --> No URI present. Default controller set.
+INFO - 2020-10-11 13:25:32 --> Router Class Initialized
+INFO - 2020-10-11 13:25:32 --> Output Class Initialized
+INFO - 2020-10-11 13:25:32 --> Security Class Initialized
+INFO - 2020-10-11 13:25:32 --> Input Class Initialized
+INFO - 2020-10-11 13:25:32 --> Language Class Initialized
+INFO - 2020-10-11 13:25:32 --> Loader Class Initialized
+INFO - 2020-10-11 13:25:32 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:25:32 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:25:32 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:25:32 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:25:32 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:25:32 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:25:32 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:25:33 --> Controller Class Initialized
+INFO - 2020-10-11 13:25:33 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:25:35 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:25:35 --> Model Class Initialized
+INFO - 2020-10-11 13:25:35 --> Final output sent to browser
+INFO - 2020-10-11 13:25:35 --> Total execution time: 3.5628
+INFO - 2020-10-11 13:29:59 --> Config Class Initialized
+INFO - 2020-10-11 13:29:59 --> Hooks Class Initialized
+INFO - 2020-10-11 13:29:59 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:29:59 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:29:59 --> URI Class Initialized
+DEBUG - 2020-10-11 13:29:59 --> No URI present. Default controller set.
+INFO - 2020-10-11 13:29:59 --> Config Class Initialized
+INFO - 2020-10-11 13:29:59 --> Hooks Class Initialized
+INFO - 2020-10-11 13:29:59 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:29:59 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:29:59 --> URI Class Initialized
+INFO - 2020-10-11 13:29:59 --> Router Class Initialized
+INFO - 2020-10-11 13:29:59 --> Output Class Initialized
+INFO - 2020-10-11 13:29:59 --> Security Class Initialized
+INFO - 2020-10-11 13:29:59 --> Input Class Initialized
+INFO - 2020-10-11 13:29:59 --> Language Class Initialized
+INFO - 2020-10-11 13:29:59 --> Config Class Initialized
+INFO - 2020-10-11 13:29:59 --> Hooks Class Initialized
+INFO - 2020-10-11 13:29:59 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:29:59 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:29:59 --> URI Class Initialized
+INFO - 2020-10-11 13:29:59 --> Router Class Initialized
+INFO - 2020-10-11 13:29:59 --> Output Class Initialized
+INFO - 2020-10-11 13:29:59 --> Security Class Initialized
+INFO - 2020-10-11 13:29:59 --> Input Class Initialized
+INFO - 2020-10-11 13:29:59 --> Language Class Initialized
+INFO - 2020-10-11 13:29:59 --> Router Class Initialized
+INFO - 2020-10-11 13:29:59 --> Output Class Initialized
+INFO - 2020-10-11 13:29:59 --> Security Class Initialized
+INFO - 2020-10-11 13:29:59 --> Input Class Initialized
+INFO - 2020-10-11 13:29:59 --> Loader Class Initialized
+INFO - 2020-10-11 13:29:59 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:29:59 --> Loader Class Initialized
+INFO - 2020-10-11 13:29:59 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:29:59 --> Controller Class Initialized
+INFO - 2020-10-11 13:29:59 --> Language Class Initialized
+INFO - 2020-10-11 13:29:59 --> Loader Class Initialized
+INFO - 2020-10-11 13:29:59 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:29:59 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:29:59 --> Controller Class Initialized
+INFO - 2020-10-11 13:29:59 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:29:59 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:29:59 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:29:59 --> Controller Class Initialized
+INFO - 2020-10-11 13:30:00 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:30:01 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:30:01 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:30:01 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:30:01 --> Model Class Initialized
+INFO - 2020-10-11 13:30:01 --> Final output sent to browser
+INFO - 2020-10-11 13:30:01 --> Total execution time: 2.4353
+INFO - 2020-10-11 13:30:01 --> Model Class Initialized
+INFO - 2020-10-11 13:30:01 --> Model Class Initialized
+INFO - 2020-10-11 13:30:01 --> Model Class Initialized
+INFO - 2020-10-11 13:30:02 --> Model Class Initialized
+INFO - 2020-10-11 13:30:02 --> Final output sent to browser
+INFO - 2020-10-11 13:30:02 --> Total execution time: 2.8358
+INFO - 2020-10-11 13:30:03 --> Final output sent to browser
+INFO - 2020-10-11 13:30:03 --> Total execution time: 3.8062
+INFO - 2020-10-11 13:31:13 --> Config Class Initialized
+INFO - 2020-10-11 13:31:13 --> Hooks Class Initialized
+INFO - 2020-10-11 13:31:13 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:31:13 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:31:13 --> Config Class Initialized
+INFO - 2020-10-11 13:31:14 --> Hooks Class Initialized
+INFO - 2020-10-11 13:31:14 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:31:14 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:31:14 --> URI Class Initialized
+INFO - 2020-10-11 13:31:14 --> Router Class Initialized
+INFO - 2020-10-11 13:31:14 --> Output Class Initialized
+INFO - 2020-10-11 13:31:14 --> Security Class Initialized
+INFO - 2020-10-11 13:31:14 --> Input Class Initialized
+INFO - 2020-10-11 13:31:14 --> Language Class Initialized
+INFO - 2020-10-11 13:31:14 --> Loader Class Initialized
+INFO - 2020-10-11 13:31:14 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:31:14 --> Controller Class Initialized
+INFO - 2020-10-11 13:31:14 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:31:14 --> URI Class Initialized
+DEBUG - 2020-10-11 13:31:14 --> No URI present. Default controller set.
+INFO - 2020-10-11 13:31:14 --> Router Class Initialized
+INFO - 2020-10-11 13:31:14 --> Config Class Initialized
+INFO - 2020-10-11 13:31:14 --> Hooks Class Initialized
+INFO - 2020-10-11 13:31:14 --> Output Class Initialized
+INFO - 2020-10-11 13:31:14 --> UTF-8 Support Enabled
+INFO - 2020-10-11 13:31:14 --> Utf8 Class Initialized
+INFO - 2020-10-11 13:31:14 --> URI Class Initialized
+INFO - 2020-10-11 13:31:14 --> Router Class Initialized
+INFO - 2020-10-11 13:31:14 --> Output Class Initialized
+INFO - 2020-10-11 13:31:14 --> Security Class Initialized
+INFO - 2020-10-11 13:31:14 --> Input Class Initialized
+INFO - 2020-10-11 13:31:14 --> Language Class Initialized
+INFO - 2020-10-11 13:31:14 --> Security Class Initialized
+INFO - 2020-10-11 13:31:14 --> Loader Class Initialized
+INFO - 2020-10-11 13:31:14 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:31:14 --> Controller Class Initialized
+INFO - 2020-10-11 13:31:14 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:31:14 --> Input Class Initialized
+INFO - 2020-10-11 13:31:14 --> Language Class Initialized
+INFO - 2020-10-11 13:31:14 --> Loader Class Initialized
+INFO - 2020-10-11 13:31:14 --> Helper loaded: url_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: string_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: date_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: array_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: security_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: text_helper
+INFO - 2020-10-11 13:31:14 --> Helper loaded: session_helper
+INFO - 2020-10-11 13:31:14 --> Controller Class Initialized
+INFO - 2020-10-11 13:31:14 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:31:14 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:31:14 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:31:15 --> Database Driver Class Initialized
+INFO - 2020-10-11 13:31:16 --> Model Class Initialized
+INFO - 2020-10-11 13:31:16 --> Model Class Initialized
+INFO - 2020-10-11 13:31:16 --> Model Class Initialized
+INFO - 2020-10-11 13:31:16 --> Model Class Initialized
+INFO - 2020-10-11 13:31:16 --> Model Class Initialized
+INFO - 2020-10-11 13:31:16 --> Final output sent to browser
+INFO - 2020-10-11 13:31:16 --> Total execution time: 2.7536
+INFO - 2020-10-11 13:31:16 --> Final output sent to browser
+INFO - 2020-10-11 13:31:16 --> Total execution time: 2.5509
+INFO - 2020-10-11 13:31:17 --> Final output sent to browser
+INFO - 2020-10-11 13:31:17 --> Total execution time: 3.3074
