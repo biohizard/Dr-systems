@@ -1,7 +1,7 @@
 <?php
 class User extends CI_Controller
 {
-//----->
+    //----->
 
     //--->
     public function __construct()
@@ -18,7 +18,7 @@ class User extends CI_Controller
     //--->
     public function index()
     {
-        $sha1                    = random_string('sha1',16);
+        $sha1                    = random_string('sha1', 16);
         $data['sha1']            = $sha1;
         $data['page_title']      = "";
         $data['sub_page_title']  = 'User';
@@ -35,7 +35,7 @@ class User extends CI_Controller
     //--->
     public function log_error()
     {
-        $sha1                    = random_string('sha1',16);
+        $sha1                    = random_string('sha1', 16);
         $data['sha1']            = $sha1;
         $data['page_title']      = "";
         $data['sub_page_title']  = 'User';
@@ -44,7 +44,7 @@ class User extends CI_Controller
         $data['js']              = 'user';
 
         $this->load->view('loop/header', $data);
-            $this->load->view('login/log-error', $data);
+        $this->load->view('login/log-error', $data);
         $this->load->view('loop/footer', $data);
     }
     //--->
@@ -52,7 +52,7 @@ class User extends CI_Controller
     //--->
     public function log_in()
     {
-        $sha1                    = random_string('sha1',16);
+        $sha1                    = random_string('sha1', 16);
         $data['sha1']            = $sha1;
         $data['page_title']      = "";
         $data['sub_page_title']  = 'User';
@@ -69,7 +69,7 @@ class User extends CI_Controller
     //--->
     public function log_out()
     {
-        $sha1                    = random_string('sha1',16);
+        $sha1                    = random_string('sha1', 16);
         $data['sha1']            = $sha1;
         $data['page_title']      = "";
         $data['sub_page_title']  = 'User';
@@ -78,7 +78,7 @@ class User extends CI_Controller
         $data['js']              = 'user';
 
         $this->load->view('loop/header', $data);
-            $this->load->view('login/log-out', $data);
+        $this->load->view('login/log-out', $data);
         $this->load->view('loop/footer', $data);
     }
     //--->
@@ -86,23 +86,18 @@ class User extends CI_Controller
     //--->
     public function sign_in()
     {
-        $sha1                    = random_string('sha1',16);
+        $sha1                    = random_string('sha1', 16);
         $data['sha1']            = $sha1;
-        $data['page_title']      = "";
+        $data['page_title']      = "sign-in";
         $data['sub_page_title']  = 'User';
         $data['sub_page_title2'] = 'Login';
         $data['css']             = 'user';
         $data['js']              = 'user';
-        
-
-        $this->load->view('loop/header', $data);
-            $this->load->view('login/sign-in', $data);
-        $this->load->view('loop/footer', $data);
-
-        
-
+        $this->load->view('loop/header'  , $data);
+        $this->load->view('login/sign-in', $data);
+        $this->load->view('loop/footer'  , $data);
     }
     //--->
 
-//----->
+    //----->
 }
