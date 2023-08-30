@@ -67,7 +67,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
 
         //----->
         //http://localhost/server/2023/Dr-systems/Drsystems-APP/
-          define("TITLE", PAGETITLE ." Money offline - ");
+          define("TITLE", PAGETITLE ."Dr. Systems v1 - ");
         
           define("BASE_URL", '//'.$_SERVER['HTTP_HOST'].'/server/2023/Dr-systems/');
           
@@ -76,7 +76,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
             define("CDN_URL",BASE_URL."Drsystems-CDN/Drsystems-CDN-app/");
 
             define("INDEX_PAGE", APP_URL.'index.php/');
-            define("DEFAULTROUTER", 'user/sign_in');
+            define("DEFAULTROUTER", 'login/sign_in');
 
             /*
             107.180.40.108
