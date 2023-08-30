@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ERROR - 2023-08-29 00:01:33 --> Severity: Warning --> mysqli::real_connect(): Error while reading greeting packet. PID=5420 D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
 ERROR - 2023-08-29 00:01:33 --> Severity: error --> Exception: MySQL server has gone away D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
 ERROR - 2023-08-29 00:08:24 --> Severity: Warning --> mysqli::real_connect(): Error while reading greeting packet. PID=5420 D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
@@ -882,3 +883,11 @@ ERROR - 2023-08-29 10:31:48 --> Severity: Warning --> include(): Failed opening 
 ERROR - 2023-08-29 10:31:49 --> 404 Page Not Found: Docs/5.3
 ERROR - 2023-08-29 10:31:49 --> Severity: Warning --> include(D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\application\views\errors\html\error_404.php): Failed to open stream: No such file or directory D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\system\core\Exceptions.php 184
 ERROR - 2023-08-29 10:31:49 --> Severity: Warning --> include(): Failed opening 'D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') D:\noSync\Server\php\2023\Dr-systems\Drsystems-APP\system\core\Exceptions.php 184
+=======
+ERROR - 2023-08-29 10:14:41 --> Severity: Warning --> mysqli::real_connect(): Error while reading greeting packet. PID=192 C:\noSync\Sites\php\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2023-08-29 10:14:41 --> Severity: error --> Exception: MySQL server has gone away C:\noSync\Sites\php\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2023-08-29 10:15:41 --> Severity: Warning --> mysqli::real_connect(): Error while reading greeting packet. PID=192 C:\noSync\Sites\php\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2023-08-29 10:15:41 --> Severity: error --> Exception: MySQL server has gone away C:\noSync\Sites\php\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2023-08-29 10:19:03 --> Severity: Warning --> mysqli::real_connect(): Error while reading greeting packet. PID=192 C:\noSync\Sites\php\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2023-08-29 10:19:03 --> Severity: error --> Exception: MySQL server has gone away C:\noSync\Sites\php\Dr-systems\Drsystems-APP\system\database\drivers\mysqli\mysqli_driver.php 201
+>>>>>>> Stashed changes
