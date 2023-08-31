@@ -7,7 +7,6 @@ class Login extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        // Your own constructor code
         $this->load->database();
         $this->default = $this->load->database('default', TRUE);
         $this->load->model('log/Querys');
@@ -25,9 +24,7 @@ class Login extends CI_Controller
         $data['sub_page_title2'] = 'Login';
         $data['css']             = 'user';
         $data['js']              = 'user';
-
         $this->load->view('loop/header', $data);
-
         $this->load->view('loop/footer', $data);
     }
     //--->
@@ -44,8 +41,7 @@ class Login extends CI_Controller
         $data['js']              = 'sign_in/sign_in';
         $this->load->view('loop/header'  , $data);
         $this->load->view('loop/dark_light', $data);
-            $this->load->view('login/sign-in', $data);
-        //$this->load->view('loop/copyright'  , $data);
+        $this->load->view('login/sign-in', $data);
         $this->load->view('loop/footer'  , $data);
     }
     //--->
@@ -60,7 +56,7 @@ class Login extends CI_Controller
         $data['sub_page_title2'] = 'Check';
         $data['css']             = 'log_in/log_in';
         $data['js']              = 'log_in/log_in';
-
+    
         $this->load->view('loop/header'  , $data);
         $this->load->view('loop/dark_light', $data);
         $this->load->view('login/log-in', $data);
