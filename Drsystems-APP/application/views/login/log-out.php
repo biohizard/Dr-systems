@@ -1,3 +1,4 @@
+<input type="hidden" id="url" value="<?php echo $url;?>">
     <main class="form-signin w-100 m-auto" >
         <h1 class="visually-hidden">Login</h1>
 
@@ -7,7 +8,7 @@
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">Cerrar la sesión.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-danger          btn-lg px-4 gap-3" id="b_signin"   >SignIn</button>
+                    <button type="button" class="btn btn-danger          btn-lg px-4 gap-3" id="b_signin"   >Sign In</button>
                 </div>
             </div>
         </div>

@@ -1,14 +1,15 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-    /**
-    *
-    *
-    *
-    *
-    *
-    **/
+/**
+ *
+ *
+ *
+ *
+ *
+ **/
 
-    class Querys extends CI_Model {
+class Querys extends CI_Model
+{
 
     //--->
     function logNew()
@@ -29,10 +30,11 @@
     }
     //--->
 
-        //--->
-        function checkDatauser($email,$password,$rememberme){
-            
-            /*
+    //--->
+    function checkDatauser($user, $password)
+    {
+
+        /*
             SELECT
             usuarios.id AS id,
             usuarios.id_advance AS id_advance,
@@ -46,26 +48,37 @@
             usuarios
             WHERE
             usuarios.`user` = 'root'
+
             */
+        /*
+        Array (
+            [ID] => 1 [IDadvance] => U-03fb5ca7539c770b6b
+            [User] => admin
+            [Permissions] => admin
+            [Email] => admin@gtvsa.com
+            [Firstname] => Admin
+            [Secondname] => Root
+            [Message] => Datasuccessful
+            [Time] => 2023-09-03 02:09:13
+            )
+        */
+        //---A)
+        $this->db->select('*');
+        $this->db->from('user');
+        $this->db->where('user.`user`', $user);
+        $query = $this->db->get();
+        $row = $query->row_array();
+        //---A)                
 
-            //---A)
-            $this->db->select('*');
-            $this->db->from('user'); 
-            $this->db->where('user.`email`',$email);
-                $query = $this->db->get();
-                $row = $query->row_array();
-            //---A)                
-
-                if ($query->num_rows() > 0) {
-                    foreach ($query->result() as $row) {
-                        $row->Message = "Datasuccessful";
-                        $data[] = $row;
-                        }
-                        return $data;
-                    }
-
-		  }
-        //--->
-
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $row->Message = "Datasuccessful";
+                $data[] = $row;
+            }
+            return $data;
         }
+    }
+    //--->
+
+}
 /* End of file database.php */

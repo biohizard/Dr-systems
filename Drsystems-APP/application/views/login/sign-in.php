@@ -5,16 +5,16 @@
             <h1 class="h3 mb-3 fw-normal">Por favor registrate</h1>
 
             <div class="form-floating">
-                <input type="text" name="usuario" class="form-control" id="floatingInput" placeholder="Usuario">
+                <input type="text" name="LSf47vWou0wNVEsEuT1i" class="form-control" id="floatingInput" placeholder="Usuario">
                 <label for="floatingInput">Usuario</label>
             </div>
             <div class="form-floating">
-                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" name="PHt0gjv8TbmLTQCWVB81" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
             </div>
 
             <div class="form-check text-start my-3">
-                <input class="form-check-input" type="checkbox" name="rememberme" value="remember-me" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="Mbv2GRxrFw8vMe1P5Pgo" value="remember-me" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
                     Recuerdame
                 </label>
