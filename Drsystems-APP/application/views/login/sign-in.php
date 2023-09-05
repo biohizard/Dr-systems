@@ -1,4 +1,4 @@
-    <main class="form-signin w-100 m-auto">
+<main class="form-signin w-100 m-auto">
         <form class="text-center" action="<?php echo INDEX_PAGE; ?>login/log_in" method="POST">
             <h1 class="display-1 link-primary bi bi-capsule"></h1>
 

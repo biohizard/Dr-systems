@@ -28,13 +28,32 @@ class Dashboard extends CI_Controller
         $data['css']             = 'dashboard/dash_1';
         $data['js']              = 'dashboard/dash_1';
         $data['session']         = $_SESSION;
-        
+
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
 
-        $this->load->view('loop/header'    , $data);
-        $this->load->view('loop/dark_light', $data);
+        /*
+        Array ( 
+            [ID] => 1 
+            [IDadvance] => U-03fb5ca7539c770b6b 
+            [User] => admin 
+            [Permissions] => admin 
+            [Email] => admin@gtvsa.com 
+            [Firstname] => Admin 
+            [Secondname] => Root 
+            [Message] => Datasuccessful 
+            [Time] => 2023-09-05 04:09:58 )
+        */
+        $this->load->view('loop/header'        , $data);
+        $this->load->view('loop/body/dashboard', $data);
 
-        $this->load->view('loop/footer'    , $data);
+            $this->load->view('dashboard/header'   , $data);
+            $this->load->view('dashboard/beginmenu'   , $data);
+                $this->load->view('dashboard/inicio'   , $data);
+            $this->load->view('dashboard/endmenu'   , $data);
+
+        $this->load->view('loop/footer/dark_light'    , $data);
+        $this->load->view('loop/footer/copyright'    , $data);
+        $this->load->view('loop/footer/footer'        , $data);
     }
     //--->
 

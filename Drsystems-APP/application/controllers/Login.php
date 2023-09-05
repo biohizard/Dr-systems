@@ -25,7 +25,10 @@ class Login extends CI_Controller
         $data['css']             = 'user';
         $data['js']              = 'user';
         $this->load->view('loop/header', $data);
-        $this->load->view('loop/footer', $data);
+        
+        $this->load->view('loop/footer/dark_light'    , $data);
+        //$this->load->view('loop/footer/copyright'    , $data);
+        $this->load->view('loop/footer/footer'        , $data);
     }
     //--->
 
@@ -46,9 +49,13 @@ class Login extends CI_Controller
         $data['url']             = INDEX_PAGE . "?ok=101&since=login&sha1=" . $sha1;
 
         $this->load->view('loop/header'  , $data);
-        $this->load->view('loop/dark_light', $data);
-        $this->load->view('login/sign-in', $data);
-        $this->load->view('loop/footer'  , $data);
+        $this->load->view('loop/body/login', $data);
+        
+            $this->load->view('login/sign-in', $data);
+        
+        $this->load->view('loop/footer/dark_light'    , $data);
+        //$this->load->view('loop/footer/copyright'    , $data);
+        $this->load->view('loop/footer/footer'        , $data);
     }
     //--->
 
@@ -138,9 +145,13 @@ class Login extends CI_Controller
 
         /*Begin: Views */
         $this->load->view('loop/header'    , $data);
-        $this->load->view('loop/dark_light', $data);
-        $this->load->view('login/log-in'   , $data);
-        $this->load->view('loop/footer'    , $data);
+        $this->load->view('loop/body/login', $data);
+        
+            $this->load->view('login/log-in'   , $data);
+
+        $this->load->view('loop/footer/dark_light'    , $data);
+        //$this->load->view('loop/footer/copyright'    , $data);
+        $this->load->view('loop/footer/footer'        , $data);
         /*End:   Views */
     }
     //--->
@@ -163,9 +174,14 @@ class Login extends CI_Controller
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
 
         $this->load->view('loop/header', $data);
-        $this->load->view('loop/dark_light', $data);
-        $this->load->view('login/log-out', $data);
-        $this->load->view('loop/footer', $data);
+        $this->load->view('loop/body/login', $data);
+        
+            $this->load->view('login/log-out', $data);
+        
+
+        $this->load->view('loop/footer/dark_light'    , $data);
+        $this->load->view('loop/footer/copyright'    , $data);
+        $this->load->view('loop/footer/footer'        , $data);
     }
     //--->
 
@@ -186,9 +202,13 @@ class Login extends CI_Controller
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
 
         $this->load->view('loop/header', $data);
-        $this->load->view('loop/dark_light', $data);
-        $this->load->view('login/log-error', $data);
-        $this->load->view('loop/footer', $data);
+        $this->load->view('loop/body/login', $data);
+        
+            $this->load->view('login/log-error', $data);
+        
+        $this->load->view('loop/footer/dark_light'    , $data);
+        //$this->load->view('loop/footer/copyright'    , $data);
+        $this->load->view('loop/footer/footer'        , $data);
     }
     //--->
 
