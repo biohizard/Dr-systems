@@ -43,6 +43,8 @@ class Login extends CI_Controller
         $data['css']             = 'sign_in/sign_in';
         $data['js']              = 'sign_in/sign_in';
 
+        $data['url']             = INDEX_PAGE . "?ok=101&since=login&sha1=" . $sha1;
+
         $this->load->view('loop/header'  , $data);
         $this->load->view('loop/dark_light', $data);
         $this->load->view('login/sign-in', $data);
@@ -158,7 +160,7 @@ class Login extends CI_Controller
         $data['css']             = 'log_out/log_out';
         $data['js']              = 'log_out/log_out';
         
-        $data['url'] = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
+        $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
 
         $this->load->view('loop/header', $data);
         $this->load->view('loop/dark_light', $data);
@@ -180,6 +182,8 @@ class Login extends CI_Controller
         $data['sub_page_title2'] = 'Login';
         $data['css']             = 'log_error/log_error';
         $data['js']              = 'log_error/log_error';
+
+        $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
 
         $this->load->view('loop/header', $data);
         $this->load->view('loop/dark_light', $data);

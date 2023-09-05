@@ -1,4 +1,4 @@
-<input type="hidden" id="url" value="<?php echo $url;?>">
+
     <main class="form-signin w-100 m-auto" >
         <h1 class="visually-hidden">Login</h1>
 
