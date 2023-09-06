@@ -180,7 +180,7 @@ class Login extends CI_Controller
         
 
         $this->load->view('loop/footer/dark_light'    , $data);
-        $this->load->view('loop/footer/copyright'    , $data);
+        //$this->load->view('loop/footer/copyright'    , $data);
         $this->load->view('loop/footer/footer'        , $data);
     }
     //--->
