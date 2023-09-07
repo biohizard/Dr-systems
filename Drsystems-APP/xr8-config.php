@@ -97,7 +97,7 @@ if (ZONA == "local") {
               */
   //----->
 
-} else {
+} else if (ZONA == "web") {
   //----->
   define("TITLE", PAGETITLE . "Dr. Systems v1 - ");
 

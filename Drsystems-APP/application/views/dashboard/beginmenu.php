@@ -11,7 +11,7 @@
         <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="../dashboard">
+              <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="<?php echo INDEX_PAGE; ?>dashboard">
                 <svg class="bi"><use xlink:href="#house-fill"/></svg>
                 Dashboard
               </a>
@@ -26,7 +26,7 @@
           </h6>
           <ul class="nav flex-column mb-auto">
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="../usuarios/">
+              <a class="nav-link d-flex align-items-center gap-2" href="<?php echo INDEX_PAGE; ?>usuarios/">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                 Usuarios
               </a>
@@ -55,7 +55,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="../login/log_out">
+              <a class="nav-link d-flex align-items-center gap-2" href="<?php echo INDEX_PAGE; ?>login/log_out">
                 <svg class="bi"><use xlink:href="#door-closed"/></svg>
                 Sign out
               </a>

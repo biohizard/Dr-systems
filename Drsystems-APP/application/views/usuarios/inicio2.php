@@ -12,16 +12,7 @@
         <th scope="col"></th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Jorge Rodriguez</td>
-        <td>Admin</td>
-        <td>jorge@luxza.com</td>
-        <td>5515067867</td>
-        <td><input type="checkbox" name="" id=""></td>
-      </tr>
-    </tbody>
+    <tbody id="allUser"></tbody>
   </table>
 </div>
 <!-- -->
