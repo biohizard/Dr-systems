@@ -40,6 +40,7 @@ class Usuarios extends CI_Controller
         $this->load->view('usuarios/inicio2', $data);
         //----->
         $this->load->view('dashboard/endmenu', $data);
+        $this->load->view('usuarios/inicio3', $data);
         $this->load->view('loop/footer/dark_light', $data);
         $this->load->view('loop/footer/copyright', $data);
         $this->load->view('loop/footer/footer', $data);
