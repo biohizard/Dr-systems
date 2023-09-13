@@ -1,23 +1,8 @@
 
 <!-- ########################## View User ########################## -->
-
-<button type="button" class="btn btn-outline-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-  Consultas
-</button>
-
-<button type="button" class="btn btn-outline-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-  Historial
-</button>
-
-<button type="button" class="btn btn-outline-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
- Recetas
-</button>
 <div id="userGrind">
   <!-- -->
-    <h2>view pacientes</h2>
+    <h2>view doctores</h2>
       <div class="table-responsive small">
         <table class="table table-striped table-sm">
           <thead>
