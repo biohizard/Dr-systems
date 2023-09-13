@@ -12,13 +12,13 @@ var urlBaseApi     = dominioBase + "server/2023/Dr-systems/Drsystems-API/index.p
 $(function(){
 
     /*##### C #####*/
-    usuariosNew()
+    pacientesNew()
     /*##### R #####*/
-    usuariosViewJqxhr()
+    pacientesViewJqxhr()
     /*##### U #####*/
-    usuariosUpdate()
+    pacientesUpdate()
     /*##### D #####*/
-    usuariosDelete()
+    pacientesDelete()
 
     btnRefresh()
     checkOnlyOne()
@@ -26,18 +26,18 @@ $(function(){
 
 /*##### C #####*/
 //------------------------------------------------->
-function usuariosNew(){
-    console.log('Run: Usuarios New 1')
+function pacientesNew(){
+    console.log('Run: pacientes New 1')
     $("#btnGneUser").on( "click", function(){
-        usuariosNewJqxhr()
+        pacientesNewJqxhr()
     })
 }
-function usuariosNewJqxhr(){
+function pacientesNewJqxhr(){
     console.log('Run: Usuarios New 2')
     var settings = {
         "async"       : true,
         "crossDomain" : true,
-        "url"         : urlBaseApi + 'user/userNew',
+        "url"         : urlBaseApi + 'pacientes/pacientesNew',
         "method"      : "POST",
         "headers": {
         "xr8-api-key" : "ewf45r4435trge",
@@ -45,7 +45,7 @@ function usuariosNewJqxhr(){
         "cache-control": "no-cache"
         },"data": {
         "user"        : $("#nuusername").val(),
-        "permissions" : 'user',
+        "permissions" : 'pacientes',
         "email"       : $("#nuemail").val(),
         "password"    : $("#nupassword").val(),
         "first"       : $("#nufirstName").val(),
@@ -58,8 +58,8 @@ function usuariosNewJqxhr(){
     var jqxhr = $.ajax(settings)
     .done(function (data){
         console.info('Run: reload alluser')
-        usuariosViewJqxhr()
-         usuariosNewCls()
+        pacientesViewJqxhr()
+        pacientesNewCls()
     })
     .fail(function(jqXHR,textStatus,errorThrown){
         console.info('Run: error alluser')
@@ -71,7 +71,7 @@ function usuariosNewJqxhr(){
 
     console.warn(jqxhr)
 }
-function usuariosNewCls(){
+function pacientesNewCls(){
     console.log('Run: Usuarios New 3')
         $("#newModal").removeAttr("class","show")
         $("#newModal").attr("style","")
@@ -83,9 +83,9 @@ function usuariosNewCls(){
 
 /*##### R #####*/
 //------------------------------------------------->
-function usuariosViewJqxhr(){
+function pacientesViewJqxhr(){
   var settings = {
-    url: urlBaseApi + "user/userView",
+    url: urlBaseApi + "pacientes/pacientesView",
     method: "GET",
     timeout: 0,
     headers: {
@@ -94,30 +94,41 @@ function usuariosViewJqxhr(){
   };
   var jqxhr = $.getJSON(settings)
     .done(function (data) {
-      $("#allUser").empty();
-      //--->
-      $.each(data, function (i, val) {
 
-        if(val.user == "admin"){
-            a = "<td></td>" 
-        }else{
-            a = "<td><input type=\"checkbox\" name=\"\" value=\"" + val.id_advance + "\"></td>" 
-        }
+        $("#allUser").empty();
+
+        //--->
+        if(data == "null"){
+
             $("#allUser")
             .fadeIn(3000)
-            .append(
-                "<tr>" +
-                "<td class=\"" + val.id_advance + " id\">" + val.id           + "</td>" +
-                "<td ><span class=\"" + val.id_advance + " first\">" + val.firstname + "</span> <span class=\"" + val.id_advance + " second\">" + val.secondname + "</span></td>" +
-                "<td class=\"" + val.id_advance + " user\">" + val.user       + "</td>" +
-                "<td class=\"" + val.id_advance + " email\">" + val.email     + "</td>" +
-                "<td class=\"" + val.id_advance + " nophone\">" + val.telefono+ "</td>" +
-                a +
-                "</tr>"
-            )
-        
-      });
-      //--->
+            .append("<tr><td>no hay pacientes</td></tr>")
+            
+            }else{
+
+                $.each(data, function (i, val){
+
+                    if(val.user == "admin"){
+                        a = "<td></td>" 
+                    }else{
+                        a = "<td><input type=\"checkbox\" name=\"\" value=\"" + val.id_advance + "\"></td>" 
+                    }
+                        $("#allUser")
+                        .fadeIn(3000)
+                        .append(
+                            "<tr>" +
+                            "<td class=\"" + val.id_advance + " id\">" + val.id           + "</td>" +
+                            "<td ><span class=\"" + val.id_advance + " first\">" + val.firstname + "</span> <span class=\"" + val.id_advance + " second\">" + val.secondname + "</span></td>" +
+                            "<td class=\"" + val.id_advance + " email\">" + val.email     + "</td>" +
+                            "<td class=\"" + val.id_advance + " nophone\">" + val.telefono+ "</td>" +
+                            a +
+                            "</tr>"
+                        )
+
+                })
+                        
+            }
+        //--->
     })
     .fail(function (jqXHR, textStatus, errorThrown) {
       console.info("Run: error alluser");
@@ -133,19 +144,19 @@ function usuariosViewJqxhr(){
 
 /*##### U #####*/
 //------------------------------------------------->
-function usuariosUpdate(){
+function pacientesUpdate(){
     console.log('Run: Usuarios New 1')
-    $("#btnUpdateUser").on( "click", function(){
-        updateUsuariosJqxhr()
+    $("#btnUpdatePacientes").on( "click", function(){
+        updatePacientesJqxhr()
     })
 }
-function updateUsuariosJqxhr(){
+function updatePacientesJqxhr(){
      
     console.log('Run: Usuarios New 2')
     var settings = {
         "async"       : true,
         "crossDomain" : true,
-        "url"         : urlBaseApi + 'user/userUpdate',
+        "url"         : urlBaseApi + 'pacientes/pacientesUpdate',
         "method"      : "POST",
         "headers": {
         "xr8-api-key" : "ewf45r4435trge",
@@ -154,22 +165,20 @@ function updateUsuariosJqxhr(){
         },
         "data": {
         "id_advance"  : $("#id_advance").val(),
-        "user"        : $("#uuusername").val(),
-        "permissions" : 'user',
+        "permissions" : 'paciente',
         "email"       : $("#uuemail").val(),
-        "password"    : $("#uupassword").val(),
         "first"       : $("#uufirstName").val(),
         "second"      : $("#uulastName").val(),
         "tel"         : $("#uuPhone").val(),
-        "puesto"      : 'dr'
+        "puesto"      : 'drpacientes'
         }
     }
 
     var jqxhr = $.ajax(settings)
     .done(function (data){
         console.info('Run: reload alluser')
-        usuariosViewJqxhr()
-        usuariosUpdateCls()
+        pacientesViewJqxhr()
+        pacientesUpdateCls()
     })
     .fail(function(jqXHR,textStatus,errorThrown){
         console.info('Run: error alluser')
@@ -181,7 +190,7 @@ function updateUsuariosJqxhr(){
     
     console.warn(jqxhr)
 }
-function usuariosUpdateCls(){
+function pacientesUpdateCls(){
     console.log('Run: Usuarios New 3')
         $("#updateModal").removeAttr("class","show")
         $("#updateModal").attr("style","")
@@ -193,19 +202,19 @@ function usuariosUpdateCls(){
 
 /*##### D #####*/
 //------------------------------------------------->
-function usuariosDelete(){
+function pacientesDelete(){
     console.log('Run: Usuarios Delete 1')
     $("#btnDeleteUser").on( "click", function(){
-        usuariosDeleteJqxhr()
+        pacientesDeleteJqxhr()
     })
 }
-function usuariosDeleteJqxhr(){
+function pacientesDeleteJqxhr(){
 
     console.log('Run: Usuarios New 2')
     var settings = {
         "async"       : true,
         "crossDomain" : true,
-        "url"         : urlBaseApi + 'user/userDelete',
+        "url"         : urlBaseApi + 'pacientes/pacientesDelete',
         "method"      : "POST",
         "headers": {
         "xr8-api-key" : "ewf45r4435trge",
@@ -220,8 +229,8 @@ function usuariosDeleteJqxhr(){
     var jqxhr = $.ajax(settings)
     .done(function (data){
         console.info('Run: reload alluser')
-        usuariosViewJqxhr()
-        usuariosDeleteCls()
+        pacientesViewJqxhr()
+        pacientesDeleteCls()
     })
     .fail(function(jqXHR,textStatus,errorThrown){
         console.info('Run: error alluser')
@@ -233,7 +242,7 @@ function usuariosDeleteJqxhr(){
     
     console.warn(jqxhr)
 }
-function usuariosDeleteCls(){
+function pacientesDeleteCls(){
     console.log('Run: Usuarios Delete 3')
         $("#deleteModal").removeAttr("class","show")
         $("#deleteModal").attr("style","")
@@ -245,7 +254,7 @@ function usuariosDeleteCls(){
 function btnRefresh(){
     console.log('Run: btnRefresh')
     $("#btnRefresh").on( "click", function(){
-        usuariosViewJqxhr()
+        pacientesViewJqxhr()
     })
 }
 
