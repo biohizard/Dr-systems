@@ -257,7 +257,6 @@ function btnRefresh(){
         pacientesViewJqxhr()
     })
 }
-
 function checkOnlyOne(){
     $(document).on('click', 'input[type="checkbox"]', function() {
         x = $('input[type="checkbox"]').not(this).prop('checked', false);
