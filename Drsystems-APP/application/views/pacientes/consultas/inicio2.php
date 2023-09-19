@@ -4,51 +4,54 @@
     <div class="row g-5">
       <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Your cart</span>
-          <span class="badge bg-primary rounded-pill">3</span>
+          <span class="text-primary">Examen físico:</span>
         </h4>
         <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Product name</h6>
-              <small class="text-body-secondary">Brief description</small>
+              <h6 class="my-0">TA</h6>
+              <small class="text-body-secondary">Tensión Arterial</small>
             </div>
-            <span class="text-body-secondary">$12</span>
+            <span class="text-body-secondary">000/0</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Second product</h6>
-              <small class="text-body-secondary">Brief description</small>
+              <h6 class="my-0">FC</h6>
+              <small class="text-body-secondary">Frecuencia cardiaca</small>
             </div>
-            <span class="text-body-secondary">$8</span>
+            <span class="text-body-secondary">00 Bpm</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Third item</h6>
-              <small class="text-body-secondary">Brief description</small>
+              <h6 class="my-0">T</h6>
+              <small class="text-body-secondary">Temperatura</small>
             </div>
-            <span class="text-body-secondary">$5</span>
+            <span class="text-body-secondary">00°</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-            <div class="text-success">
-              <h6 class="my-0">Promo code</h6>
-              <small>EXAMPLECODE</small>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">P</h6>
+              <small class="text-body-secondary">Peso</small>
             </div>
-            <span class="text-success">−$5</span>
+            <span class="text-body-secondary">000 Kg</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total (USD)</span>
-            <strong>$20</strong>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">A</h6>
+              <small class="text-body-secondary">Altura</small>
+            </div>
+            <span class="text-body-secondary">000 Cm</span>
           </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">IMC</h6>
+              <small class="text-body-secondary">Indice de Masa Corporal</small>
+            </div>
+            <span class="text-body-secondary">00.0 IMC</span>
+          </li>          
         </ul>
-
-        <form class="card p-2">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
-          </div>
-        </form>
       </div>
+      
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
         <form class="needs-validation" novalidate="">
