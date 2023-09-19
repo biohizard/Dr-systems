@@ -21,6 +21,8 @@ $(function(){
     pacientesDelete()
 
     btnRefresh()
+    btnConsultas()
+
     checkOnlyOne()
 })
 
@@ -250,11 +252,19 @@ function pacientesDeleteCls(){
         $("#deleteModal").attr("role","")
         $( ".modal-backdrop" ).remove();
 }
+
+
 //------------------------------------------------->
 function btnRefresh(){
     console.log('Run: btnRefresh')
     $("#btnRefresh").on( "click", function(){
         pacientesViewJqxhr()
+    })
+}
+function btnConsultas(){
+    $("#btnConsultas").on( "click", function(){
+        valUrl =  "../pacientes/consultas/";
+        setTimeout( function(){window.location.href=valUrl},500);
     })
 }
 function checkOnlyOne(){
@@ -293,7 +303,7 @@ function checkOnlyOne(){
         }
         //--------------------->
     })
-  }
+}
 function clearAll(){
 $("#id_advance").val("")
 $("#nufirstName,#nulastName,#nuusername,#nupassword,#nuemail,#nuPhone").val("")

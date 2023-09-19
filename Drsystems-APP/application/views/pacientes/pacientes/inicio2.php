@@ -1,7 +1,7 @@
 
 <!-- ########################## View User ########################## -->
 
-<button type="button" class="btn btn-outline-primary"
+<button type="button" id="btnConsultas" class="btn btn-outline-primary"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
   Consultas
 </button>
