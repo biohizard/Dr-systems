@@ -253,7 +253,6 @@ function pacientesDeleteCls(){
         $( ".modal-backdrop" ).remove();
 }
 
-
 //------------------------------------------------->
 function btnRefresh(){
     console.log('Run: btnRefresh')
@@ -263,7 +262,11 @@ function btnRefresh(){
 }
 function btnConsultas(){
     $("#btnConsultas").on( "click", function(){
-        valUrl =  "../pacientes/consultas/";
+        
+        
+        varIdadvance = $("#id_advance").val()
+        valUrl =  "../pacientes/consultas/?id_advance=" + varIdadvance;
+
         setTimeout( function(){window.location.href=valUrl},500);
     })
 }
