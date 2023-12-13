@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "Drsystems-APP/application/models"
+		},
+		{
+			"path": "Drsystems-APP/application/logs"
 		}
 	],
 	"settings": {
