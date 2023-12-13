@@ -48,7 +48,7 @@ define("GTV","golden trade value");
 if ($_SERVER['HTTP_HOST'] == 'localhost') {
   define("ZONA", 'local');
   define("PAGETITLE", 'Local : ');
-} elseif ($a_ngrok['1'] == 'ngrok') {
+} elseif ($a_ngrok['1']   == 'ngrok') {
   define("ZONA",'ngrok');
   define("PAGETITLE", 'Local Ngrok: ');
 } else {

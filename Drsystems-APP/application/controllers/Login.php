@@ -49,15 +49,15 @@ class Login extends CI_Controller
         $data['url']             = INDEX_PAGE . "?ok=101&since=login&sha1=" . $sha1;
         //-------------------------------------------------->
         //<head>
-        $this->load->view('loop/header'              , $data);
+            $this->load->view('loop/header'              , $data);
         //Begin: <body>
-        $this->load->view('loop/body/login'          , $data);
+            $this->load->view('loop/body/login'          , $data);
 
-            $this->load->view('login/sign-in', $data);
+                $this->load->view('login/sign-in', $data);
 
-        $this->load->view('loop/footer/copyright'    , $data);
-        $this->load->view('loop/footer/dark_light'   , $data);
-        $this->load->view('loop/footer/footer'       , $data);
+            $this->load->view('loop/footer/copyright'    , $data);
+            $this->load->view('loop/footer/dark_light'   , $data);
+            $this->load->view('loop/footer/footer'       , $data);
         //End: </body>
         //-------------------------------------------------->
     }
