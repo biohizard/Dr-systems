@@ -42,78 +42,57 @@ date_default_timezone_set('America/Mexico_City');
 
 $a_ngrok = explode(".", $_SERVER['HTTP_HOST']);
 
+define("GTV","golden trade value");
+
 //Local o Web
 if ($_SERVER['HTTP_HOST'] == 'localhost') {
-
   define("ZONA", 'local');
   define("PAGETITLE", 'Local : ');
-
-  }elseif ($a_ngrok['1'] == 'ngrok') {
-
-    define("ZONA", 'ngrok');
-    define("PAGETITLE", 'Local Ngrok: ');
-
-    }else{
-
-      define("ZONA", 'web');
-      define("PAGETITLE", 'Remote : ');
-
-      }
+} elseif ($a_ngrok['1'] == 'ngrok') {
+  define("ZONA",'ngrok');
+  define("PAGETITLE", 'Local Ngrok: ');
+} else {
+  define("ZONA", 'web');
+  define("PAGETITLE", 'Remote : ');
+}
 
 //Config Local o Web
-      if (ZONA == "local") {
-        //----->
-          define("TITLE", PAGETITLE ." Money offline - ");
+if (ZONA == "local") {
+  //----->
+  define("TITLE", PAGETITLE . "Dr. Systems v1 - ");
 
-          define("BASE_URL", '//'.$_SERVER['HTTP_HOST'].'/server/GoldenTradeValue/');
+  define("BASE_URL", '//' . $_SERVER['HTTP_HOST'] . '/server/2023/Dr-systems/');
 
-            define("APP_URL",BASE_URL."GoldenTradeValue-APP/");
-            define("API_URL",BASE_URL."GoldenTradeValue-API/");
-            define("CDN_URL",BASE_URL."GoldenTradeValue-CDN/app/");
+  define("APP_URL", BASE_URL . "Drsystems-APP/");
+  define("API_URL", BASE_URL . "Drsystems-API/");
+  define("CDN_URL", BASE_URL . "Drsystems-CDN/Drsystems-CDN-app/");
 
-            define("INDEX_PAGE", APP_URL.'index.php/');
-            define("DEFAULTROUTER", 'api');
+  define("INDEX_PAGE", APP_URL . 'index.php/');
+  define("DEFAULTROUTER", 'inicio');
 
+  define("HOSTNAME", '107.180.40.108');
+  define("USERNAME", 'mxaifafbo');
+  define("PASSWORD", 'mxaifafbo2023');
+  define("DATABASE", 'aifafbomx_db');
+  //----->
+} else if (ZONA == "ngrok") {
 
-            define("HOSTNAME", 'localhost');
-            define("USERNAME", 'root');
-            define("PASSWORD", '12345aeiou');
-            define("DATABASE", 'labs26');
-        //----->
-        }else if  (ZONA == "ngrok"){
-          //----->
-            define("TITLE", PAGETITLE ." Money ngrok - ");
+} else if (ZONA == "web") {
+  //----->
+  define("TITLE", PAGETITLE . "Dr. Systems v1 - ");
 
-            define("BASE_URL", '//'.$_SERVER['HTTP_HOST'].'/server/DevOps/GoldenTradeValue/');
+  define("BASE_URL", '//' . $_SERVER['HTTP_HOST'] . '/server/2023/Dr-systems/');
 
-              define("APP_URL",BASE_URL."GoldenTradeValue-APP/");
-              define("API_URL",BASE_URL."GoldenTradeValue-API/");
-              define("CDN_URL",BASE_URL."GoldenTradeValue-CDN/app/");
+  define("APP_URL", BASE_URL . "Drsystems-APP/");
+  define("API_URL", BASE_URL . "Drsystems-API/");
+  define("CDN_URL", BASE_URL . "Drsystems-CDN/Drsystems-CDN-app/");
 
-              define("INDEX_PAGE", APP_URL.'index.php/');
-              define("DEFAULTROUTER", 'api');
+  define("INDEX_PAGE", APP_URL . 'index.php/');
+  define("DEFAULTROUTER", 'inicio');
 
-              define("HOSTNAME", 'labs26.com');
-              define("USERNAME", 'labs26');
-              define("PASSWORD", 'demo');
-              define("DATABASE", 'labs26');
-          //----->
-          }else{
-            //----->
-              define("TITLE", PAGETITLE ." Money online - ");
-
-              define("BASE_URL", 'gtvsa.com');
-
-                define("APP_URL","//app.".BASE_URL."/");
-                define("API_URL","//api.".BASE_URL."/");
-                define("CDN_URL","//cdn.".BASE_URL."/");
-
-                define("INDEX_PAGE", API_URL.'');
-                define("DEFAULTROUTER", 'api');
-
-                define("HOSTNAME", 'labs26.com');
-                define("USERNAME", 'labs26');
-                define("PASSWORD", '12345aeiou');
-                define("DATABASE", 'labs26');
-            //----->
-            }
+  define("HOSTNAME", '107.180.40.108');
+  define("USERNAME", 'mxaifafbo');
+  define("PASSWORD", 'mxaifafbo2023');
+  define("DATABASE", 'aifafbomx_db');
+  //----->
+}

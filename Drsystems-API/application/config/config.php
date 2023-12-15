@@ -126,7 +126,7 @@ $config['subclass_prefix'] = 'MY_';
 | Enabling this setting will tell CodeIgniter to look for a Composer
 | package auto-loader script in application/vendor/autoload.php.
 |
-|	$config['composer_autoload'] = TRUE;
+|	$config['composer_autoload'] = FALSE;
 |
 | Or if you have your vendor/ directory located somewhere else, you
 | can opt to set a specific path as well:
@@ -187,9 +187,9 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |
 */
 $config['enable_query_strings'] = FALSE;
-$config['controller_trigger'] = 'c';
-$config['function_trigger'] = 'm';
-$config['directory_trigger'] = 'd';
+$config['controller_trigger']   = 'c';
+$config['function_trigger']     = 'm';
+$config['directory_trigger']    = 'd';
 
 /*
 |--------------------------------------------------------------------------
@@ -213,7 +213,7 @@ $config['directory_trigger'] = 'd';
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 1;
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['log_threshold'] = 0;
 | application/logs/ directory. Use a full server path.
 |
 */
-$config['log_path'] = '';
+$config['log_path'] = 'application/logs/';
 
 /*
 |--------------------------------------------------------------------------
@@ -238,7 +238,7 @@ $config['log_path'] = '';
 | Note: Leaving it blank will default to 'php'.
 |
 */
-$config['log_file_extension'] = '.txt';
+$config['log_file_extension'] = '.log';
 
 /*
 |--------------------------------------------------------------------------
@@ -250,7 +250,7 @@ $config['log_file_extension'] = '.txt';
 | IMPORTANT: This MUST be an integer (no quotes) and you MUST use octal
 |            integer notation (i.e. 0700, 0644, etc.)
 */
-$config['log_file_permissions'] = 0644;
+$config['log_file_permissions'] = 0777;
 
 /*
 |--------------------------------------------------------------------------
@@ -283,7 +283,7 @@ $config['error_views_path'] = '';
 | application/cache/ directory.  Use a full server path.
 |
 */
-$config['cache_path'] = '';
+$config['cache_path'] = 'application/cache';
 
 /*
 |--------------------------------------------------------------------------
@@ -314,7 +314,7 @@ $config['cache_query_string'] = TRUE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'T7uQR0ZZ5K4Haj9wYUjv';
 
 /*
 |--------------------------------------------------------------------------
@@ -367,12 +367,12 @@ $config['encryption_key'] = '';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
-$config['sess_match_ip'] = FALSE;
-$config['sess_time_to_update'] = 300;
+$config['sess_driver']             = 'files';
+$config['sess_cookie_name']        = 'ci_session';
+$config['sess_expiration']         = 7200;
+$config['sess_save_path']          = NULL;
+$config['sess_match_ip']           = FALSE;
+$config['sess_time_to_update']     = 300;
 $config['sess_regenerate_destroy'] = FALSE;
 
 /*
@@ -410,11 +410,11 @@ $config['cookie_httponly'] 	= FALSE;
 | 'csrf_regenerate' = Regenerate token on every submission
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
-$config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'csrf_test_name';
-$config['csrf_cookie_name'] = 'csrf_cookie_name';
-$config['csrf_expire'] = 7200;
-$config['csrf_regenerate'] = TRUE;
+$config['csrf_protection']   = FALSE;
+$config['csrf_token_name']   = 'csrf_test_name';
+$config['csrf_cookie_name']  = 'csrf_cookie_name';
+$config['csrf_expire']       = 7200;
+$config['csrf_regenerate']   = TRUE;
 $config['csrf_exclude_uris'] = array();
 
 /*
@@ -437,7 +437,7 @@ $config['csrf_exclude_uris'] = array();
 | by the output class.  Do not 'echo' any values with compression enabled.
 |
 */
-$config['compress_output'] = FALSE;
+$config['compress_output'] = true;
 
 /*
 |--------------------------------------------------------------------------
