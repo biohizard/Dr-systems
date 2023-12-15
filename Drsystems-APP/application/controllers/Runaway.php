@@ -65,13 +65,18 @@ class Runaway extends CI_Controller
         $this->load->library('email');
 
         $config = array();
-        $config['protocol']  = 'smtp';
-        $config['smtp_host'] = 'mail.lonex.com';
-        $config['smtp_user'] = 'jorge@luxza.com';
-        $config['smtp_pass'] = 'Ip21hAp8X$';
-        $config['smtp_port'] = 2525;
 
-        $config['Mailer']    = "XR8 Tech";
+        $config = array(
+            'useragent' => 'XR8:',
+            'protocol'  => 'smtp',
+            'smtp_host' => 'mail.lonex.com',
+            'smtp_port' => 2525,
+            'smtp_user' => 'jorge@luxza.com',
+            'smtp_pass' => 'Ip21hAp8X$',
+            'mailtype'  => 'html',
+            'newline'   => '\r\n',
+            'mailer'    => 'XR8 Tech'
+        );
         
         $this->email->initialize($config);
 
@@ -80,10 +85,16 @@ class Runaway extends CI_Controller
         //$this->email->cc('another@another-example.com');
         //$this->email->bcc('them@their-example.com');
         
-        $this->email->subject('Email Test');
-        $this->email->message('Testing the email class.');
+        $this->email->subject('Email Test html'); 
+        $this->email->message($this->load->view('email/base',$data,true));
         
-        $this->email->send();
+        if($this->email->send()){
+            $emailcode = "Email Code ok " . $sha1 ;
+        }else{
+            $emailcode = "Email Code Error " . $sha1 ;
+        }
+        
+          $data['emailcode']      = $emailcode;
         //-------------------------------------------------->        
 
         //-------------------------------------------------->
@@ -91,8 +102,6 @@ class Runaway extends CI_Controller
             $this->load->view('loop/header'              , $data);
         //Begin: <body>
             $this->load->view('loop/body/login'          , $data);
-
-
 
             $this->load->view('loop/footer/copyright'    , $data);
             $this->load->view('loop/footer/dark_light'   , $data);
