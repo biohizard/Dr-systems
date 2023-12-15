@@ -31,5 +31,3 @@
     </style>
     <!-- StyleSheet -->
 </head>
-
-<body class="d-flex align-items-center py-4 bg-body-tertiary">
