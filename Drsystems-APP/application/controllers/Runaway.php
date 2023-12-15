@@ -88,6 +88,8 @@ class Runaway extends CI_Controller
         $this->email->subject('Email Test html'); 
         $this->email->message($this->load->view('email/base',$data,true));
         
+        $this->email->attach('http://localhost/server/2023/pdf/examples/pdf/XXXbookmark.pdf');
+        
         if($this->email->send()){
             $emailcode = "Email Code ok " . $sha1 ;
         }else{
