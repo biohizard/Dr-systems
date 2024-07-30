@@ -8,7 +8,7 @@
 
                     <div class="form-floating">
                         <input type="text" name="LSf47vWou0wNVEsEuT1i" class="form-control" id="floatingInput" placeholder="Usuario">
-                        <label for="floatingInput">Usuario</label>
+                        <label for="floatingInput">Usuario xxx</label>
                     </div>
                     <div class="form-floating">
                         <input type="password" name="PHt0gjv8TbmLTQCWVB81" class="form-control" id="floatingPassword" placeholder="Password">

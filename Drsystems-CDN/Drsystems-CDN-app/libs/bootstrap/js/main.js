@@ -1,32 +1,48 @@
 console.log("%c Load Js GTV ", "font-size:30px");
 
-
 /*==============================================
-                Error XHR jQ                 
+                Error XHR jQ
 ==============================================*/
 function xhrError(jqXHR, textStatus, errorThrown) {
-    if (jqXHR.status === 0) {
-        fail_txt = "Not connection Verify Network [  Not Network ]. " + textStatus;
-        } else if (jqXHR.status == 200) {
-            fail_txt = "Requested page Ok [200]. " + textStatus;
-            } else if (jqXHR.status == 404) {
-                fail_txt = "Requested page not found [404]. " + textStatus;
-                } else if (jqXHR.status == 500) {
-                    fail_txt = "Internal Server Error [500]. " + textStatus;
-                    } else if (exception === 'parsererror') {
-                        fail_txt = "Requested JSON parse failed [  Json Fail ]. " + textStatus;
-                        } else if (exception === 'timeout') {
-                            fail_txt = "Time out error [   ]. " + textStatus;
-                            } else if (exception === 'abort') {
-                                fail_txt = "Ajax request aborted [  XHR aborted ]. " + textStatus;
-                                } else {
-                                    fail_txt = "Uncaught Error [  Fail  ]. " + jqXHR.responseText;
-                                        }
-    console.log("App: Msg XHR (AEx000002 [" + fail_txt + "] ).");
+  let failTxt;
+
+  switch (jqXHR.status) {
+      case 0:
+          failTxt = `Not connection Verify Network [ Not Network ]. ${textStatus}`;
+          break;
+      case 200:
+          failTxt = `Requested page Ok [200]. ${textStatus}`;
+          break;
+      case 404:
+          failTxt = `Requested page not found [404]. ${textStatus}`;
+          break;
+      case 500:
+          failTxt = `Internal Server Error [500]. ${textStatus}`;
+          break;
+      default:
+          switch (errorThrown) {
+              case 'parsererror':
+                  failTxt = `Requested JSON parse failed [ Json Fail ]. ${textStatus}`;
+                  break;
+              case 'timeout':
+                  failTxt = `Time out error [   ]. ${textStatus}`;
+                  break;
+              case 'abort':
+                  failTxt = `Ajax request aborted [ XHR aborted ]. ${textStatus}`;
+                  break;
+              default:
+                  failTxt = `Uncaught Error [ Fail ]. ${jqXHR.responseText}`;
+                  break;
+          }
+          break;
+  }
+
+  console.log(`App: Msg XHR (AEx000002 [${failTxt}] ).`);
 }
 /*==============================================
-                Error XHR jQ                 
+              Error XHR jQ
 ==============================================*/
+
 
 /*==============================================
                 Var Empty                 

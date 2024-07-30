@@ -71,9 +71,9 @@ if (ZONA == "local") {
   define("DEFAULTROUTER", 'login/sign_in');
 
   define("HOSTNAME", '107.180.40.108');
-  define("USERNAME", 'mxaifafbo');
-  define("PASSWORD", 'mxaifafbo2023');
-  define("DATABASE", 'aifafbomx_db');
+  define("USERNAME", 'dr_db');
+  define("PASSWORD", 'PU=]tmU?,iuj');
+  define("DATABASE", 'dr_db');
   //----->
 } else if (ZONA == "ngrok") {
 
