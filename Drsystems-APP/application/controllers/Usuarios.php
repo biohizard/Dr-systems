@@ -26,7 +26,7 @@ class Usuarios extends CI_Controller
         $data['sub_page_title']  = 'Inicio';
         $data['sub_page_title2'] = '';
         $data['css']             = 'usuarios/usuarios';
-        $data['js']              = 'usuarios/usuarios';
+        $data['js']              = 'main,usuarios/usuarios';
         $data['session']         = $_SESSION;
 
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;

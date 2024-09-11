@@ -6,8 +6,8 @@ console.log('Run: Doctores')
 */
 
 /** URLS */
-var dominioBase    = "//localhost/"
-var urlBaseApi     = dominioBase + "server/2023/Dr-systems/Drsystems-API/index.php/"
+var dominioBase    = "//siats.mx/dr-systems/"
+var urlBaseApi     = dominioBase + "drsystems-api/"
 
 $(function(){
 

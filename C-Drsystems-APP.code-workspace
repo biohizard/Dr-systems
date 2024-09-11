@@ -1,16 +1,7 @@
 {
 	"folders": [
-		{
-			"path": "Drsystems-APP/application/views"
-		},
-		{
-			"path": "Drsystems-APP/application/controllers"
-		},
-		{
-			"path": "Drsystems-APP/application/models"
-		},
-		{
-			"path": "Drsystems-APP/application/logs"
+		{	"name": "Drsystems APP",
+			"path": "drsystems-app"
 		}
 	],
 	"settings": {

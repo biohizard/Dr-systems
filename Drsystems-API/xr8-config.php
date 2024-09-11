@@ -37,7 +37,7 @@
  */
 
 // Definir constantes globales
-define("NAME", "DR Systems app");
+define("NAME", "DR Systems api");
 
 // Establecer la zona horaria predeterminada
 date_default_timezone_set('America/Mexico_City');
@@ -72,26 +72,34 @@ setZoneAndTitle($_SERVER['HTTP_HOST'], $a_ngrok);
 // Configuración basada en la zona
 function configureByZone($zona) {
 
-  define("TITLE", PAGETITLE . "Dr. Systems v1 - ");
+    define("TITLE", PAGETITLE . "Dr. Systems v1 - ");
 
-  //DB Config
-  define("HOSTNAME", '107.180.40.108');
-  define("USERNAME", 'dr_db');
-  define("PASSWORD", 'PU=]tmU?,iuj');
-  define("DATABASE", 'dr_db');
+    //DB Config
+    define("HOSTNAME", '107.180.40.108:3306');
+    define("USERNAME", 'dr_db');
+    define("PASSWORD", "#L^X,?=XN$");
+    define("DATABASE", 'dr_db');
 
-  define("DEFAULTROUTER"       , 'login/sign_in');
+  define("DEFAULTROUTER"       , 'inicio');
 
     if ($zona == 'local') {
         define("BASE_URL", '//'      . $_SERVER['HTTP_HOST'] . '/server/2023/Dr-systems/');
-        define("APP_URL", BASE_URL   . "Drsystems-APP/");
-        define("API_URL", BASE_URL   . "Drsystems-API/");
-        define("CDN_URL", BASE_URL   . "Drsystems-CDN/Drsystems-CDN-app/");
+        define("APP_URL", BASE_URL   . "drsystems-app/");
+        define("API_URL", BASE_URL   . "drsystems-api/");
+        define("CDN_URL", BASE_URL   . "drsystems-cdn/drsystems-cdn-app/");
         define("INDEX_PAGE", APP_URL . 'index.php/');
     } elseif ($zona == 'ngrok') {
         // Configuración para ngrok
     } elseif ($zona == 'web') {
         // Configuración para web
+        //echo "web";
+        //print_r($_SERVER);
+
+        define("BASE_URL", '//'       . 'siats.mx/dr-systems/');
+        define("APP_URL",    BASE_URL . "drsystems-app/");
+        define("API_URL",    BASE_URL . "drsystems-api");
+        define("CDN_URL",    BASE_URL . "drsystems-cdn/Drsystems-CDN-app/");
+        define("INDEX_PAGE", APP_URL  . '');
     }
 }
 

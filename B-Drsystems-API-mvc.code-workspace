@@ -1,13 +1,25 @@
 {
 	"folders": [
+		"name": "API",
 		{
-			"path": "Drsystems-API/application/controllers"
-		},
-		{
-			"path": "Drsystems-API/application/models"
-		},
-		{
-			"path": "Drsystems-API/application/views"
+
+			"name": "API Controllers",
+			{
+				// Docs and release notes
+				"name": "API Controllers",
+				"path": "drsystems-api/application/controllers"
+			},
+			{
+				// Docs and release notes
+				"name": "API Models",
+				"path": "drsystems-api/application/models"
+			},
+			{
+				// Docs and release notes
+				"name": "API Views",
+				"path": "drsystems-api/application/views"
+			}
+
 		}
 	],
 	"settings": {

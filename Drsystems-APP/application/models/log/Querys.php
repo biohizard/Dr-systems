@@ -15,12 +15,14 @@ class Querys extends CI_Model
     function logNew()
     {
 
+        /*
         $response = file_get_contents('http://worldtimeapi.org/api/timezone/America/Mexico_City');
         $obj = json_decode($response);
-
-
+        */
+        
         $data['id_advance'] = random_string('alpha', 20);
-        $data['time']       = $obj->{'datetime'};
+        //$data['time']       = $obj->{'datetime'};
+        $data['time']       = date("Y-m-d h:i:sa");
 
 
         $this->db->insert('log', $data);

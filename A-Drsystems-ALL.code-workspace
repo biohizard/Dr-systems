@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "drsystems-cdn"
+		},
+		{
+			"path": "drsystems-api"
+		},
+		{
+			"path": "drsystems-app"
+		}
+	]
+}

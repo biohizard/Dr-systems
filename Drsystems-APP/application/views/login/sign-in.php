@@ -2,13 +2,13 @@
     <div class="row">
         <main class="form-signin w-100 m-auto">
                 <form class="text-center" action="<?php echo INDEX_PAGE; ?>login/log_in" method="POST">
-                    <h1 class="display-1 link-primary bi bi-capsule"></h1>
+                    <h1 class="display-1 link-primary bi bi-hospital-fill"></h1>
 
-                    <h1 class="h3 mb-3 fw-normal">Por favor registrate</h1>
+                    <p class="mt-3 mb-3 fw-normal">Inicia sesión</p>
 
                     <div class="form-floating">
                         <input type="text" name="LSf47vWou0wNVEsEuT1i" class="form-control" id="floatingInput" placeholder="Usuario">
-                        <label for="floatingInput">Usuario xxx</label>
+                        <label for="floatingInput">Usuario</label>
                     </div>
                     <div class="form-floating">
                         <input type="password" name="PHt0gjv8TbmLTQCWVB81" class="form-control" id="floatingPassword" placeholder="Password">
