@@ -5,10 +5,6 @@ console.log('Run: Doctores')
  #############################################################################
 */
 
-/** URLS */
-var dominioBase    = "//siats.mx/dr-systems/"
-var urlBaseApi     = dominioBase + "drsystems-api/"
-
 $(function(){
 
     /*##### C #####*/
