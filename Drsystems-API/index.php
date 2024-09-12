@@ -93,7 +93,7 @@ switch (ENVIRONMENT)
  */
 	//$system_path = '../codeigniter/system';
 	$system_path = 'system';
-	
+
 /*
  *---------------------------------------------------------------
  * APPLICATION DIRECTORY NAME

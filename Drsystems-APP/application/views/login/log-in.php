@@ -1,5 +1,3 @@
-    <input type="hidden" id="url" value="<?php echo $url;?>">
-
     <main class="form-signin w-100 m-auto" >
         <h1 class="visually-hidden">Login</h1>
         <div class="px-4 py-5 my-5 text-center">

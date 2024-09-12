@@ -1,24 +1,17 @@
 #####   Enable a RewriteEngine Policy     #####
-
     RewriteEngine On 
-
     RewriteCond $1 !^(index\.php|images|css|js|robots\.txt) 
-     
     RewriteCond %{REQUEST_FILENAME} !-f 
     RewriteCond %{REQUEST_FILENAME} !-d 
-    
     RewriteRule ^(.*)$ index.php/$1 [PT,L,QSA]  
 
 #####   Enable a Cross-Domain Policy     #####
-
     Header set Access-Control-Allow-Origin "*"
     Header set Access-Control-Allow-Headers "Content-Type, Authorization"
     Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
     Header always set Access-Control-Allow-Headers "*"
-    
 
 #####   Enable a Zip Policy     #####
-
     <IfModule mod_headers.c>
       <FilesMatch "\.(js|css|xml|gz)$">
         Header append Vary: Accept-Encoding
@@ -34,5 +27,5 @@
         #The following lines are to avoid bugs with some browsers
         BrowserMatch ^Mozilla/4 gzip-only-text/html
         BrowserMatch ^Mozilla/4\.0[678] no-gzip
-        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html 
+        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
     </IfModule>

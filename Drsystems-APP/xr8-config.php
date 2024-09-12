@@ -26,109 +26,84 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
+ * @package	  CodeIgniter
+ * @author  	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
- * @since	Version 1.0.0
+ * @license	  http://opensource.org/licenses/MIT	MIT License
+ * @link    	http://codeigniter.com
+ * @since	    Version 1.0.0
  * @filesource
  */
 
-//Fecha
+// Definir constantes globales***
+define("NAME", "DR Systems app");
+
+// Establecer la zona horaria predeterminada
 date_default_timezone_set('America/Mexico_City');
-//echo 'Fecha/hora actual: ', date('Y-m-d h:i:s', time());
 
-$a_ngrok = explode(".", $_SERVER['HTTP_HOST']);
+  // Verificar que la zona horaria se haya establecido correctamente
+  if (date_default_timezone_get() !== 'America/Mexico_City') {
+      // Manejar el error de configuración de zona horaria si es necesario
+      error_log('No se pudo establecer la zona horaria a America/Mexico_City');
+      error_log('Fecha/hora actual: ', date('Y-m-d h:i:s', time()));
+  }
 
-define("GTV","golden trade value");
+// Dividir el host en partes utilizando el punto como delimitador
+$a_ngrok = explode('.', $_SERVER['HTTP_HOST']);
 
-//Local o Web
-if ($_SERVER['HTTP_HOST'] == 'localhost') {
+// Determinar la zona y el título de la página
+function setZoneAndTitle($host, $a_ngrok = []) {
+    if ($host == 'localhost') {
+        define("ZONA", 'local');
+        define("PAGETITLE", 'Local : ');
+    } elseif (!empty($a_ngrok) && isset($a_ngrok[1]) && $a_ngrok[1] == 'ngrok') {
+        define("ZONA", 'ngrok');
+        define("PAGETITLE", 'Local Ngrok: ');
+    } else {
+        define("ZONA", 'web');
+        define("PAGETITLE", 'Remote : ');
+    }
+}
 
-  define("ZONA", 'local');
-  define("PAGETITLE", 'Local : ');
+// Llamar a la función con los parámetros adecuados
+setZoneAndTitle($_SERVER['HTTP_HOST'], $a_ngrok);
 
-  }elseif ($a_ngrok['1'] == 'ngrok') {
+// Configuración basada en la zona
+function configureByZone($zona) {
 
-    define("ZONA", 'ngrok');
-    define("PAGETITLE", 'Local Ngrok: ');
-  
-    }else{
-  
-      define("ZONA", 'web');
-      define("PAGETITLE", 'Remote : ');
-  
-      }
+  define("TITLE", PAGETITLE . "Dr. Systems v1 - ");
 
-//Config Local o Web
-      if (ZONA == "local") {
+  //DB Config
+  define("HOSTNAME", '107.180.40.108:3306');
+  define("USERNAME", 'dr_db');
+  define("PASSWORD", "#L^X,?=XN$");
+  define("DATABASE", 'dr_db');
 
-        //----->
-        //http://localhost/server/2023/Dr-systems/Drsystems-APP/
-          define("TITLE", PAGETITLE ."Dr. Systems v1 - ");
-        
-          define("BASE_URL", '//'.$_SERVER['HTTP_HOST'].'/server/2023/Dr-systems/');
-          
-            define("APP_URL",BASE_URL."Drsystems-APP/");
-            define("API_URL",BASE_URL."Drsystems-API/");
-            define("CDN_URL",BASE_URL."Drsystems-CDN/Drsystems-CDN-app/");
+  define("DEFAULTROUTER"       , 'login/sign_in');
 
-            define("INDEX_PAGE", APP_URL.'index.php/');
-            define("DEFAULTROUTER", 'login/sign_in');
+    if ($zona == 'local') {
+        //echo "local";
+        define("BASE_URL", '//'      . $_SERVER['HTTP_HOST'] . '/server/2023/Dr-systems/');
+        define("APP_URL", BASE_URL   . "drsystems-app/");
+        define("API_URL", BASE_URL   . "drsystems-api/");
+        define("CDN_URL", BASE_URL   . "drsystems-cdn/drsystems-cdn-app/");
+        define("INDEX_PAGE", APP_URL . 'index.php/');
+    } elseif ($zona == 'ngrok') {
+        // Configuración para ngrok
+        echo "ngrok";
+    } elseif ($zona == 'web') {
+        // Configuración para web
+        //echo "web";
+        //print_r($_SERVER);
 
-            /*
-            107.180.40.108
-            mxaifafbo
-            mxaifafbo2023
-            aifa
-            */
-            define("HOSTNAME", '107.180.40.108');
-            define("USERNAME", 'mxaifafbo');
-            define("PASSWORD", 'mxaifafbo2023');
-            define("DATABASE", 'aifafbomx_db');
-        //----->
-        //----->
+        define("BASE_URL", '//'       . 'siats.mx/dr-systems/');
+        define("APP_URL",    BASE_URL . "drsystems-app/");
+        define("API_URL",    BASE_URL . "drsystems-api");
+        define("CDN_URL",    BASE_URL . "drsystems-cdn/Drsystems-CDN-app/");
+        define("INDEX_PAGE", APP_URL  . '');
+    }
+}
 
-      }else if  (ZONA == "ngrok"){
-
-          //----->
-            define("TITLE", PAGETITLE ." Money ngrok - ");
-
-            define("BASE_URL", '//'.$_SERVER['HTTP_HOST'].'/server/DevOps/GoldenTradeValue/');
-            
-              define("APP_URL",BASE_URL."GoldenTradeValue-APP/");
-              define("API_URL",BASE_URL."GoldenTradeValue-API/");
-              define("CDN_URL",BASE_URL."GoldenTradeValue-CDN-app/");
-              
-              define("INDEX_PAGE", APP_URL.'index.php/');
-              define("DEFAULTROUTER", 'user/login');
-
-              define("HOSTNAME", 'labs26.com');
-              define("USERNAME", 'labs26');
-              define("PASSWORD", '12345aeiou');
-              define("DATABASE", 'labs26');
-          //----->
-
-        }else{
-
-            //----->
-              define("TITLE", PAGETITLE ." Golden Trade Value - ");
-
-              define("BASE_URL", 'gtvsa.com');
-              
-                define("APP_URL","//app.".BASE_URL."/");
-                define("API_URL","//api.".BASE_URL."/");
-                define("CDN_URL","//cdn.".BASE_URL."/GoldenTradeValue-CDN-app/");
-      
-                define("INDEX_PAGE", APP_URL.'');
-                define("DEFAULTROUTER", 'user/login');
-
-                define("HOSTNAME", 'labs26.com');
-                define("USERNAME", 'labs26');
-                define("PASSWORD", '12345aeiou');
-                define("DATABASE", 'labs26');
-            //----->      
-                    
-          }
+// Aplicar la configuración basada en la zona
+configureByZone(ZONA);
