@@ -26,7 +26,7 @@ class Pacientes extends CI_Controller
         $data['sub_page_title']  = 'Inicio';
         $data['sub_page_title2'] = '';
         $data['css']             = 'pacientes/pacientes';
-        $data['js']              = 'pacientes/pacientes';
+        $data['js']              = 'main,pacientes/pacientes';
         $data['session']         = $_SESSION;
 
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
@@ -59,7 +59,7 @@ class Pacientes extends CI_Controller
         $data['sub_page_title']  = 'Inicio';
         $data['sub_page_title2'] = '';
         $data['css']             = 'pacientes/pacientes';
-        $data['js']              = 'pacientes/pacientes';
+        $data['js']              = 'main,pacientes/pacientes';
         $data['session']         = $_SESSION;
 
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
