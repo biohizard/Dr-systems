@@ -1,20 +1,16 @@
-
 <!-- ########################## View User ########################## -->
-
-<button type="button" id="btnConsultas" class="btn btn-outline-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+<button class="btn btn-outline-primary" id="btnConsultas" data-bs-target="#exampleModal" data-bs-toggle="modal" type="button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
   Consultas
 </button>
 
-<button type="button" class="btn btn-outline-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+<button class="btn btn-outline-primary" id="btnHistorial" type="button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
   Historial
 </button>
 
-<button type="button" class="btn btn-outline-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+<button class="btn btn-outline-primary" id="btnRecetas" type="button" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
  Recetas
 </button>
+
 <div id="userGrind">
   <!-- -->
     <h2>view pacientes</h2>

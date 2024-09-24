@@ -26,7 +26,7 @@ class Pacientes extends CI_Controller
         $data['sub_page_title']  = 'Inicio';
         $data['sub_page_title2'] = '';
         $data['css']             = 'pacientes/pacientes';
-        $data['js']              = 'main,pacientes/pacientes';
+        $data['js']              = 'main,pacientes/pacientes,pacientes/btn,pacientes/xhr';
         $data['session']         = $_SESSION;
 
         $data['url']             = INDEX_PAGE . "?error=102&since=login&sha1=" . $sha1;
@@ -34,13 +34,17 @@ class Pacientes extends CI_Controller
         $this->load->view('loop/header', $data);
         $this->load->view('loop/body/dashboard', $data);
         $this->load->view('dashboard/header', $data);
+
+        $this->load->view('loop/loading', $data);
+
         $this->load->view('dashboard/beginmenu', $data);
         //----->
         $this->load->view('pacientes/pacientes/inicio', $data);
         $this->load->view('pacientes/pacientes/inicio2', $data);
+        $this->load->view('pacientes/pacientes/inicio3', $data);
         //----->
         $this->load->view('dashboard/endmenu', $data);
-        $this->load->view('pacientes/pacientes/inicio3', $data);
+        
         $this->load->view('loop/footer/dark_light', $data);
         $this->load->view('loop/footer/copyright', $data);
         $this->load->view('loop/footer/footer', $data);

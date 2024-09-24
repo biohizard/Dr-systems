@@ -54,6 +54,25 @@ function isEmpty(val) {
 /*==============================================
                 Var Empty
 ==============================================*/
+
+/*==============================================
+                Modal Loading
+==============================================*/
+function modalLoadShow(){
+    new bootstrap.Modal($("#viweLoading")).show();
+}
+function modalLoadHide(){
+    var miModal = document.getElementById('viweLoading');
+    var modalInstance = bootstrap.Modal.getInstance(miModal)
+        if (!modalInstance) {
+        modalInstance = new bootstrap.Modal(miModal);
+        }
+            modalInstance.hide();   
+}
+/*==============================================
+                Modal Loading
+==============================================*/
+
 function checkBoxOne() {
     var $checks = $('input[type="checkbox"]');
     $checks.click(function () {
